@@ -8,14 +8,6 @@
     "content": "🧩 The Situation  I had a working build from six hours ago. But after a flurry of local experiments and edits, I found myself in a tangled mess of changes, errors, and untracked files.  I wanted a c..."
   },
   {
-    "title": "AWS Project 1: Launching a Secure, Monitorable EC2 — My First DevSecOps Lab",
-    "url": "/posts/aws-project1-secure-ec2/",
-    "categories": "DevSecOps, AWS",
-    "tags": "aws, ec2, vpc, secretsmanager, cloudwatch, devsecops, monitoring, iam",
-    "date": "2025-04-18 02:00:00 +0200",
-    "content": "🔶 Today’s AWS Hands-On (Project 1 – DevSecOps Epic)  As part of my AWS Epic on the DevSecOps learning journey, today’s goal was to complete Project 1: Launch a Secure, Monitorable EC2 in a Custom V..."
-  },
-  {
     "title": "Governance & Policy as Code: My DevSecOps Operating System",
     "url": "/posts/governance-tools-comparison/",
     "categories": "DevSecOps, Governance",
@@ -38,14 +30,6 @@
     "tags": "jekyll, ruby, github-pages, minimal-mistakes, blog, errors",
     "date": "2025-04-14 02:00:00 +0200",
     "content": "My debugging journey fixing broken builds caused by Ruby version mismatches, unsupported Jekyll plugins, and GitHub Pages limitations — with real errors and fixes."
-  },
-  {
-    "title": "Understanding `.tfvars` in Terraform with Real EC2 Example",
-    "url": "/posts/terraform-tfvars-ec2-example/",
-    "categories": "Terraform",
-    "tags": "terraform, devsecops, aws, best-practices",
-    "date": "2025-04-12 02:00:00 +0200",
-    "content": "A practical deep dive into `.tfvars` usage in Terraform, with EC2 deployment examples and industry-aligned best practices."
   },
   {
     "title": "Terraform Journey: From Zero to Launching EC2 on AWS",
