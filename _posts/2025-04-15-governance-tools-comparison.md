@@ -8,6 +8,7 @@ excerpt: "How I apply real-world governance rules, policy enforcement, and secur
 pin: false
 math: false
 toc: true
+comments: true
 ---
 
 # 🔐 DevSecOps Governance Tools Comparison

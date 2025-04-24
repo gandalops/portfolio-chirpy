@@ -8,6 +8,7 @@ excerpt: "My hands-on journey learning Terraform by deploying EC2 instances on A
 pin: false
 math: false
 toc: true
+comments: true
 ---
 
 ## 🧠 Why I Chose Terraform

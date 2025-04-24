@@ -8,6 +8,7 @@ excerpt: "My hands-on DevSecOps journey of creating a secure and monitorable EC2
 pin: false
 math: false
 toc: true
+comments: true
 ---
 
 ## 🔶 Today’s AWS Hands-On (Project 1 – DevSecOps Epic)

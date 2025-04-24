@@ -7,6 +7,7 @@ description: "A practical deep dive into `.tfvars` usage in Terraform, with EC2 
 pin: false
 math: false
 toc: true
+comments: true
 ---
 
 ## ✅ What I Learned Today

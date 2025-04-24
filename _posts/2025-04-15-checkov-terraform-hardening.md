@@ -8,6 +8,7 @@ excerpt: "My first hands-on experience applying security policies to Terraform u
 pin: false
 math: false
 toc: true
+comments: true
 ---
 
 🔍 **Context:** As part of my DevSecOps learning journey (Epic 21: Governance & Policy as Code), I wanted to enforce security best practices in a live Terraform project. The goal was to use Checkov to scan my Infrastructure as Code (IaC) and apply necessary fixes to improve compliance, visibility, and confidence in what I was deploying.

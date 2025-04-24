@@ -8,6 +8,7 @@ excerpt: "My Git working directory got messy after hours of local experimentatio
 pin: false
 math: false
 toc: true
+comments: true
 ---
 
 ## 🧩 The Situation

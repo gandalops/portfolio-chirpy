@@ -8,6 +8,7 @@ description: "My debugging journey fixing broken builds caused by Ruby version m
 pin: false
 math: false
 toc: true
+comments: true
 ---
 
 Building my DevSecOps portfolio site was a moment of excitement — until it broke. 😅 What started as a clean Jekyll + GitHub Pages setup turned into a deep dive into Ruby versions, unsupported plugins, CI/CD failures, and more. Here’s how I fixed it all, and what I learned in the process.
