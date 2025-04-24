@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="page-title">{{ page.title }}</h1>
+
+  <!-- Show all unique project tags -->
+  <div class="tags">
+    {% assign project_tags = site.projects | map: "tags" | flatten | uniq %}
+    {% for tag in project_tags %}
+    <a class="tag" href="{{ '/tags/' | append: tag | relative_url }}">
+      {{ tag }}
+    </a>
+    {% endfor %}
+  </div>
+
+  <!-- List all projects -->
+  <ul class="post-list">
+    {% for project in site.projects %}
+    <li>
+      <h2>
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      </h2>
+      <p class="post-meta">{{ project.date | date: '%B %d, %Y' }}</p>
+      <p>{{ project.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

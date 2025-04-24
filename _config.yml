@@ -16,7 +16,7 @@ timezone: Europe/Berlin
 
 title: Yogesh Gandal # the main title
 
-tagline: DevSecOps Engineer | Governance-Focused  # it will display as the subtitle
+tagline: Governance-Focused DevSecOps Engineer # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A DevSecOps portfolio highlighting my projects and learning journey through hands-on blogs, guided by AI assistance....
@@ -172,6 +172,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  projects:                      # Newly added portion for projects, can be removed, if didn't work
+    output: true
+    permalink: /projects/:path/
 
 defaults:
   - scope:
@@ -194,6 +197,12 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:                # Newly added portion for projects, can be removed, if didn't work
+      path: ""
+      type: projects
+    values:
+      layout: page
+      permalink: /projects/:title/
 
 sass:
   style: compressed

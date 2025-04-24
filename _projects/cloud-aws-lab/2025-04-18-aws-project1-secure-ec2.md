@@ -3,7 +3,7 @@ title: "AWS Project 1: Launching a Secure, Monitorable EC2 — My First DevSecOp
 date: 2025-04-18 00:00:00 +0000
 last_modified_at: 2025-04-18 00:00:00 +0000
 categories: [DevSecOps, AWS]
-tags: [aws, ec2, vpc, secretsmanager, cloudwatch, devsecops, monitoring, iam]
+tags: [cloud-aws-project] # aws, ec2, vpc, secretsmanager, cloudwatch, devsecops, monitoring, iam
 excerpt: "My hands-on DevSecOps journey of creating a secure and monitorable EC2 environment in AWS, with IAM, Secrets Manager, CloudWatch, CloudTrail, and cleanup."
 pin: false
 math: false
@@ -94,9 +94,9 @@ I was **running a secured workload** with IAM, secrets, metrics, logs, and alert
 ---
 
 *Thanks for reading. May your pipelines be green, your infra be tagged, and your security posture be strong!*
+
 🔗 Explore my projects, policies, and pipelines on [opsbygandal.dev](https://www.opsbygandal.dev)  
 📁 See my repositories at [github.com/gandalops](https://github.com/gandalops?tab=repositories)  
 🔄 Feedback? Let’s connect on [LinkedIn](https://www.linkedin.com/)
-```
 
 ---

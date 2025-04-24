@@ -167,7 +167,6 @@ By backing up before resetting, I avoided loss, confusion, and panic — and I g
 🔗 Explore more projects and secure Git workflows at [opsbygandal.dev](https://www.opsbygandal.dev)  
 📁 GitHub: [github.com/gandalops](https://github.com/gandalops?tab=repositories)  
 🔄 Let’s connect on [LinkedIn](https://www.linkedin.com/)
-```
 
 ---
 

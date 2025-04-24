@@ -169,6 +169,5 @@ graph LR
 🔗 Explore my projects, policies, and pipelines on [opsbygandal.dev](https://www.opsbygandal.dev)  
 📁 Browse my GitHub repositories: [github.com/gandalops](https://github.com/gandalops?tab=repositories)  
 🔄 Feedback? Let’s connect on [LinkedIn](https://www.linkedin.com/)
-```
 
 ---

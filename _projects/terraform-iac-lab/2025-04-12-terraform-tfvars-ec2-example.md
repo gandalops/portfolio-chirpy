@@ -1,8 +1,9 @@
 ---
 title: "Understanding `.tfvars` in Terraform with Real EC2 Example"
 date: 2025-04-12 00:00:00 +0000
+layout: page
 categories: [Terraform]
-tags: [terraform, devsecops, aws, best-practices]
+tags: [terraform-project] #devsecops, aws, best-practices
 description: "A practical deep dive into `.tfvars` usage in Terraform, with EC2 deployment examples and industry-aligned best practices."
 pin: false
 math: false
@@ -122,16 +123,10 @@ It’s a best practice that ensures clarity, reusability, and secure deployments
 
 ---
 
-## 🚀 Next Step
-
-I’ll now create a new subproject using `dev.tfvars` and `prod.tfvars` to simulate multi-environment deployment.
-
----
-
 *Thanks for reading. May your pipelines be green, your infra be tagged, and your security posture be strong!*
+
 🔗 Explore my projects, policies, and pipelines on [opsbygandal.dev](https://www.opsbygandal.dev)  
 📁 Browse my GitHub repositories: [github.com/gandalops](https://github.com/gandalops?tab=repositories)  
 🔄 Feedback? Let’s connect on [LinkedIn](https://www.linkedin.com/)
-```
 
 ---
