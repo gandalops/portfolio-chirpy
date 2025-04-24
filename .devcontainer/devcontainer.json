@@ -1,0 +1,16 @@
+{
+    "name": "chirpy-dev",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": [
+        "ms-vscode.remote-containers"
+    ],
+    "forwardPorts": [
+        4000
+    ],
+    "postCreateCommand": "bundle install"
+}
