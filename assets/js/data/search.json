@@ -16,20 +16,20 @@
     "content": "🔶 Today’s AWS Hands-On (Project 1 – DevSecOps Epic)  As part of my AWS Epic on the DevSecOps learning journey, today’s goal was to complete Project 1: Launch a Secure, Monitorable EC2 in a Custom V..."
   },
   {
+    "title": "Governance & Policy as Code: My DevSecOps Operating System",
+    "url": "/posts/governance-tools-comparison/",
+    "categories": "DevSecOps, Governance",
+    "tags": "terraform, opa, tfsec, governance, devsecops, policy-as-code",
+    "date": "2025-04-15 08:00:00 +0800",
+    "content": "🔐 DevSecOps Governance Tools Comparison  As a DevSecOps practitioner, it’s critical to choose the right Policy-as-Code tool based on your stack and use case. Below is a comparison of 5 key tools us..."
+  },
+  {
     "title": "Securing Terraform with Checkov: My First Governance Hardening Pass",
     "url": "/posts/checkov-terraform-hardening/",
     "categories": "DevSecOps, Governance",
     "tags": "terraform, checkov, devsecops, security, governance, policy-as-code",
     "date": "2025-04-15 08:00:00 +0800",
     "content": "🔍 Context: As part of my DevSecOps learning journey (Epic 21: Governance &amp;amp; Policy as Code), I wanted to enforce security best practices in a live Terraform project. The goal was to use Checkov ..."
-  },
-  {
-    "title": "Governance Tools Comparison",
-    "url": "/posts/governance-tools-comparison/",
-    "categories": "",
-    "tags": "",
-    "date": "2025-04-15 00:00:00 +0800",
-    "content": "Awesome, Yogesh! This is a high-value post for your Governance &amp;amp; Policy as Code (Epic 21) and it’s already quite strong. Let’s finalize it with Chirpy-friendly cleanup and clean Markdown struct..."
   },
   {
     "title": "How I Brought My Broken DevSecOps Blog Back to Life – A Jekyll, Ruby & GitHub Pages Debugging Journey",
@@ -48,12 +48,12 @@
     "content": "A practical deep dive into `.tfvars` usage in Terraform, with EC2 deployment examples and industry-aligned best practices."
   },
   {
-    "title": "Terraform Basics",
+    "title": "Terraform Journey: From Zero to Launching EC2 on AWS",
     "url": "/posts/terraform-basics/",
-    "categories": "",
-    "tags": "",
-    "date": "2025-04-11 00:00:00 +0800",
-    "content": "Perfect, Yogesh! Here’s your visually enhanced version of 📄 2025-04-11-terraform-basics.md with --- (horizontal rules) added at logical breakpoints for better flow and readability — Chirpy-ready an..."
+    "categories": "Terraform, DevSecOps",
+    "tags": "terraform, aws, ec2, iac, devops, infrastructure-as-code",
+    "date": "2025-04-11 08:00:00 +0800",
+    "content": "🧠 Why I Chose Terraform  Coming from a project management and academic background, I wanted to actually build things — infrastructure included. I chose Terraform because:     Declarative Syntax: Wr..."
   }
   
 ]

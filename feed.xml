@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-04-24T20:44:21+08:00</updated>
+  <updated>2025-04-24T21:30:24+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>/</uri>
@@ -72,6 +72,32 @@
 
   
   <entry>
+    <title>Governance &amp; Policy as Code: My DevSecOps Operating System</title>
+    <link href="/posts/governance-tools-comparison/" rel="alternate" type="text/html" title="Governance &amp;amp; Policy as Code: My DevSecOps Operating System" />
+    <published>2025-04-15T08:00:00+08:00</published>
+  
+    <updated>2025-04-15T08:00:00+08:00</updated>
+  
+    <id>/posts/governance-tools-comparison/</id>
+    <content type="text/html" src="/posts/governance-tools-comparison/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="DevSecOps" />
+    
+    <category term="Governance" />
+    
+  
+
+  <summary>🔐 DevSecOps Governance Tools Comparison  As a DevSecOps practitioner, it’s critical to choose the right Policy-as-Code tool based on your stack and use case. Below is a comparison of 5 key tools used to enforce governance across CI/CD pipelines, Infrastructure as Code, and Kubernetes.    📊 Tool Overview Table                 Tool       Ecosystem Fit       Policy Language       Best For       Re...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Securing Terraform with Checkov: My First Governance Hardening Pass</title>
     <link href="/posts/checkov-terraform-hardening/" rel="alternate" type="text/html" title="Securing Terraform with Checkov: My First Governance Hardening Pass" />
     <published>2025-04-15T08:00:00+08:00</published>
@@ -93,28 +119,6 @@
   
 
   <summary>🔍 Context: As part of my DevSecOps learning journey (Epic 21: Governance &amp;amp;amp; Policy as Code), I wanted to enforce security best practices in a live Terraform project. The goal was to use Checkov to scan my Infrastructure as Code (IaC) and apply necessary fixes to improve compliance, visibility, and confidence in what I was deploying.    🧱 Scenario Before Scan  I began with a basic Terraform s...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Governance Tools Comparison</title>
-    <link href="/posts/governance-tools-comparison/" rel="alternate" type="text/html" title="Governance Tools Comparison" />
-    <published>2025-04-15T00:00:00+08:00</published>
-  
-    <updated>2025-04-15T00:00:00+08:00</updated>
-  
-    <id>/posts/governance-tools-comparison/</id>
-    <content type="text/html" src="/posts/governance-tools-comparison/" />
-    <author>
-      <name>your_full_name</name>
-    </author>
-
-  
-    
-  
-
-  <summary>Awesome, Yogesh! This is a high-value post for your Governance &amp;amp;amp; Policy as Code (Epic 21) and it’s already quite strong. Let’s finalize it with Chirpy-friendly cleanup and clean Markdown structure.    🔧 Chirpy Cleanup Summary                 Fix       Status                       Removed layout: single       ✅ Done                 Removed unsupported keys (author_profile, toc_sticky, toc_la...</summary>
 
   </entry>
 
