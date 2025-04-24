@@ -1,22 +1,3 @@
-Awesome, Yogesh! This is a high-value post for your **Governance & Policy as Code (Epic 21)** and it's already quite strong. Let's finalize it with Chirpy-friendly cleanup and clean Markdown structure.
-
----
-
-## 🔧 Chirpy Cleanup Summary
-
-| Fix                        | Status     |
-|----------------------------|------------|
-| Removed `layout: single`   | ✅ Done     |
-| Removed unsupported keys (`author_profile`, `toc_sticky`, `toc_label`) | ✅ Done |
-| Preserved all code blocks and tables | ✅ Done |
-| Added horizontal rules for visual clarity | ✅ Done |
-| Corrected minor typos (`on on GitHub`, fixed line breaks) | ✅ Done |
-
----
-
-## ✅ Final Clean Version: `2025-04-15-governance-tools-comparison.md`
-
-```markdown
 ---
 title: "Governance & Policy as Code: My DevSecOps Operating System"
 date: 2025-04-15 00:00:00 +0000

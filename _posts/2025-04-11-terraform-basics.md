@@ -1,12 +1,3 @@
-Perfect, Yogesh! Here's your **visually enhanced version** of  
-📄 `2025-04-11-terraform-basics.md`  
-with `---` (horizontal rules) added **at logical breakpoints** for better flow and readability — Chirpy-ready and clean ✅
-
----
-
-### ✅ Final Markdown (copy & overwrite the existing file):
-
-```markdown
 ---
 title: "Terraform Journey: From Zero to Launching EC2 on AWS"
 date: 2025-04-11 00:00:00 +0000
