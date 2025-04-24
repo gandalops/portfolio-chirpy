@@ -4,7 +4,7 @@
   <id>/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-04-24T20:05:05+08:00</updated>
+  <updated>2025-04-24T20:44:21+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>/</uri>
@@ -20,105 +20,131 @@
 
   
   <entry>
-    <title>Terraform Journey: From Zero to Launching EC2 on AWS</title>
-    <link href="/posts/terraform-basics/" rel="alternate" type="text/html" title="Terraform Journey: From Zero to Launching EC2 on AWS" />
-    <published>2025-04-11T08:00:00+08:00</published>
+    <title>Git Got Messy: How I Safely Reverted to a Clean Commit Without Losing My Work</title>
+    <link href="/posts/git-got-messy-clean-reset/" rel="alternate" type="text/html" title="Git Got Messy: How I Safely Reverted to a Clean Commit Without Losing My Work" />
+    <published>2025-04-20T08:00:00+08:00</published>
   
-    <updated>2025-04-11T08:00:00+08:00</updated>
+    <updated>2025-04-20T08:00:00+08:00</updated>
   
-    <id>/posts/terraform-basics/</id>
-    <content type="text/html" src="/posts/terraform-basics/" />
+    <id>/posts/git-got-messy-clean-reset/</id>
+    <content type="text/html" src="/posts/git-got-messy-clean-reset/" />
     <author>
       <name>your_full_name</name>
     </author>
 
   
     
-    <category term="Terraform" />
+    <category term="DevSecOps" />
+    
+    <category term="Git" />
+    
+  
+
+  <summary>🧩 The Situation  I had a working build from six hours ago. But after a flurry of local experiments and edits, I found myself in a tangled mess of changes, errors, and untracked files.  I wanted a clean slate, but I also didn’t want to lose the ideas and partial work I’d explored.  Sound familiar? This is one of those real-world Git moments where theory meets panic — and experience begins.    😰 ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>AWS Project 1: Launching a Secure, Monitorable EC2 — My First DevSecOps Lab</title>
+    <link href="/posts/aws-project1-secure-ec2/" rel="alternate" type="text/html" title="AWS Project 1: Launching a Secure, Monitorable EC2 — My First DevSecOps Lab" />
+    <published>2025-04-18T08:00:00+08:00</published>
+  
+    <updated>2025-04-18T08:00:00+08:00</updated>
+  
+    <id>/posts/aws-project1-secure-ec2/</id>
+    <content type="text/html" src="/posts/aws-project1-secure-ec2/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
     
     <category term="DevSecOps" />
     
+    <category term="AWS" />
+    
   
 
-  <summary>🧠 Why I Chose Terraform  Coming from a project management and academic background, I wanted to actually build things — infrastructure included. I chose Terraform because:     Declarative Syntax: Write what you want, not how to get there   Multi-Cloud Ready: Works with AWS, Azure, GCP and more   DevSecOps Integration: Fits perfectly in CI/CD pipelines   Community Support: 1,000+ providers and mo...</summary>
+  <summary>🔶 Today’s AWS Hands-On (Project 1 – DevSecOps Epic)  As part of my AWS Epic on the DevSecOps learning journey, today’s goal was to complete Project 1: Launch a Secure, Monitorable EC2 in a Custom VPC — fully hands-on via the AWS Console, without Terraform or automation.    🚩 Problem Statement     I wanted to understand how to manually create a secure, production-ready EC2 environment in AWS — n...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Customize the Favicon</title>
-    <link href="/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-11T00:34:00+08:00</published>
+    <title>Securing Terraform with Checkov: My First Governance Hardening Pass</title>
+    <link href="/posts/checkov-terraform-hardening/" rel="alternate" type="text/html" title="Securing Terraform with Checkov: My First Governance Hardening Pass" />
+    <published>2025-04-15T08:00:00+08:00</published>
   
-    <updated>2019-08-11T00:34:00+08:00</updated>
+    <updated>2025-04-15T08:00:00+08:00</updated>
   
-    <id>/posts/customize-the-favicon/</id>
-    <content type="text/html" src="/posts/customize-the-favicon/" />
+    <id>/posts/checkov-terraform-hardening/</id>
+    <content type="text/html" src="/posts/checkov-terraform-hardening/" />
     <author>
-      <name>cotes</name>
+      <name>your_full_name</name>
     </author>
 
   
     
-    <category term="Blogging" />
+    <category term="DevSecOps" />
     
-    <category term="Tutorial" />
+    <category term="Governance" />
     
   
 
-  <summary>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.  Generate the favicon  Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
+  <summary>🔍 Context: As part of my DevSecOps learning journey (Epic 21: Governance &amp;amp;amp; Policy as Code), I wanted to enforce security best practices in a live Terraform project. The goal was to use Checkov to scan my Infrastructure as Code (IaC) and apply necessary fixes to improve compliance, visibility, and confidence in what I was deploying.    🧱 Scenario Before Scan  I began with a basic Terraform s...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Getting Started</title>
-    <link href="/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
-    <published>2019-08-09T20:55:00+08:00</published>
+    <title>Governance Tools Comparison</title>
+    <link href="/posts/governance-tools-comparison/" rel="alternate" type="text/html" title="Governance Tools Comparison" />
+    <published>2025-04-15T00:00:00+08:00</published>
   
-    <updated>2019-08-09T20:55:00+08:00</updated>
+    <updated>2025-04-15T00:00:00+08:00</updated>
   
-    <id>/posts/getting-started/</id>
-    <content type="text/html" src="/posts/getting-started/" />
+    <id>/posts/governance-tools-comparison/</id>
+    <content type="text/html" src="/posts/governance-tools-comparison/" />
     <author>
-      <name>cotes</name>
+      <name>your_full_name</name>
     </author>
 
   
     
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
   
 
-  <summary>Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</summary>
+  <summary>Awesome, Yogesh! This is a high-value post for your Governance &amp;amp;amp; Policy as Code (Epic 21) and it’s already quite strong. Let’s finalize it with Chirpy-friendly cleanup and clean Markdown structure.    🔧 Chirpy Cleanup Summary                 Fix       Status                       Removed layout: single       ✅ Done                 Removed unsupported keys (author_profile, toc_sticky, toc_la...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Writing a New Post</title>
-    <link href="/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
-    <published>2019-08-08T14:10:00+08:00</published>
+    <title>How I Brought My Broken DevSecOps Blog Back to Life – A Jekyll, Ruby &amp; GitHub Pages Debugging Journey</title>
+    <link href="/posts/jekyll-ruby-debugging-journey/" rel="alternate" type="text/html" title="How I Brought My Broken DevSecOps Blog Back to Life – A Jekyll, Ruby &amp;amp; GitHub Pages Debugging Journey" />
+    <published>2025-04-14T08:00:00+08:00</published>
   
-    <updated>2019-08-08T14:10:00+08:00</updated>
+    <updated>2025-04-15T08:00:00+08:00</updated>
   
-    <id>/posts/write-a-new-post/</id>
-    <content type="text/html" src="/posts/write-a-new-post/" />
+    <id>/posts/jekyll-ruby-debugging-journey/</id>
+    <content type="text/html" src="/posts/jekyll-ruby-debugging-journey/" />
     <author>
-      <name>cotes</name>
+      <name>your_full_name</name>
     </author>
 
   
     
-    <category term="Blogging" />
+    <category term="Jekyll" />
     
-    <category term="Tutorial" />
+    <category term="GitHub Pages" />
+    
+    <category term="Ruby" />
+    
+    <category term="Debugging" />
     
   
 
-  <summary>This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.  Naming and Path  Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...</summary>
+  <summary>My debugging journey fixing broken builds caused by Ruby version mismatches, unsupported Jekyll plugins, and GitHub Pages limitations — with real errors and fixes.</summary>
 
   </entry>
 
