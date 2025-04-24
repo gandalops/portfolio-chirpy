@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://www.opsbygandal.dev/</id>
-  <title>Yogesh Shankar Gandal</title>
+  <title>Yogesh Gandal</title>
   <subtitle>A DevSecOps portfolio highlighting my projects and learning journey through hands-on blogs, guided by AI assistance....</subtitle>
-  <updated>2025-04-24T23:09:33+08:00</updated>
+  <updated>2025-04-24T17:27:40+02:00</updated>
   <author>
     <name>Yogesh Shankar Gandal</name>
     <uri>https://www.opsbygandal.dev/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>Git Got Messy: How I Safely Reverted to a Clean Commit Without Losing My Work</title>
     <link href="https://www.opsbygandal.dev/posts/git-got-messy-clean-reset/" rel="alternate" type="text/html" title="Git Got Messy: How I Safely Reverted to a Clean Commit Without Losing My Work" />
-    <published>2025-04-20T08:00:00+08:00</published>
+    <published>2025-04-20T02:00:00+02:00</published>
   
-    <updated>2025-04-20T08:00:00+08:00</updated>
+    <updated>2025-04-20T02:00:00+02:00</updated>
   
     <id>https://www.opsbygandal.dev/posts/git-got-messy-clean-reset/</id>
     <content type="text/html" src="https://www.opsbygandal.dev/posts/git-got-messy-clean-reset/" />
@@ -48,9 +48,9 @@
   <entry>
     <title>AWS Project 1: Launching a Secure, Monitorable EC2 — My First DevSecOps Lab</title>
     <link href="https://www.opsbygandal.dev/posts/aws-project1-secure-ec2/" rel="alternate" type="text/html" title="AWS Project 1: Launching a Secure, Monitorable EC2 — My First DevSecOps Lab" />
-    <published>2025-04-18T08:00:00+08:00</published>
+    <published>2025-04-18T02:00:00+02:00</published>
   
-    <updated>2025-04-18T08:00:00+08:00</updated>
+    <updated>2025-04-18T02:00:00+02:00</updated>
   
     <id>https://www.opsbygandal.dev/posts/aws-project1-secure-ec2/</id>
     <content type="text/html" src="https://www.opsbygandal.dev/posts/aws-project1-secure-ec2/" />
@@ -74,9 +74,9 @@
   <entry>
     <title>Governance &amp; Policy as Code: My DevSecOps Operating System</title>
     <link href="https://www.opsbygandal.dev/posts/governance-tools-comparison/" rel="alternate" type="text/html" title="Governance &amp;amp; Policy as Code: My DevSecOps Operating System" />
-    <published>2025-04-15T08:00:00+08:00</published>
+    <published>2025-04-15T02:00:00+02:00</published>
   
-    <updated>2025-04-15T08:00:00+08:00</updated>
+    <updated>2025-04-15T02:00:00+02:00</updated>
   
     <id>https://www.opsbygandal.dev/posts/governance-tools-comparison/</id>
     <content type="text/html" src="https://www.opsbygandal.dev/posts/governance-tools-comparison/" />
@@ -100,9 +100,9 @@
   <entry>
     <title>Securing Terraform with Checkov: My First Governance Hardening Pass</title>
     <link href="https://www.opsbygandal.dev/posts/checkov-terraform-hardening/" rel="alternate" type="text/html" title="Securing Terraform with Checkov: My First Governance Hardening Pass" />
-    <published>2025-04-15T08:00:00+08:00</published>
+    <published>2025-04-15T02:00:00+02:00</published>
   
-    <updated>2025-04-15T08:00:00+08:00</updated>
+    <updated>2025-04-15T02:00:00+02:00</updated>
   
     <id>https://www.opsbygandal.dev/posts/checkov-terraform-hardening/</id>
     <content type="text/html" src="https://www.opsbygandal.dev/posts/checkov-terraform-hardening/" />
@@ -126,9 +126,9 @@
   <entry>
     <title>How I Brought My Broken DevSecOps Blog Back to Life – A Jekyll, Ruby &amp; GitHub Pages Debugging Journey</title>
     <link href="https://www.opsbygandal.dev/posts/jekyll-ruby-debugging-journey/" rel="alternate" type="text/html" title="How I Brought My Broken DevSecOps Blog Back to Life – A Jekyll, Ruby &amp;amp; GitHub Pages Debugging Journey" />
-    <published>2025-04-14T08:00:00+08:00</published>
+    <published>2025-04-14T02:00:00+02:00</published>
   
-    <updated>2025-04-15T08:00:00+08:00</updated>
+    <updated>2025-04-15T02:00:00+02:00</updated>
   
     <id>https://www.opsbygandal.dev/posts/jekyll-ruby-debugging-journey/</id>
     <content type="text/html" src="https://www.opsbygandal.dev/posts/jekyll-ruby-debugging-journey/" />
