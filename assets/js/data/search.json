@@ -2,15 +2,23 @@
   {
     "title": "Git Got Messy: How I Safely Reverted to a Clean Commit Without Losing My Work",
     "url": "/posts/git-got-messy-clean-reset/",
-    "categories": "DevSecOps, Git",
+    "categories": "blog",
     "tags": "git, reset, backup, branching, dev workflow, wip",
     "date": "2025-04-20 02:00:00 +0200",
     "content": "🧩 The Situation  I had a working build from six hours ago. But after a flurry of local experiments and edits, I found myself in a tangled mess of changes, errors, and untracked files.  I wanted a c..."
   },
   {
+    "title": "AWS Project 1: Launching a Secure, Monitorable EC2 — My First DevSecOps Lab",
+    "url": "/posts/aws-project1-secure-ec2/",
+    "categories": "project-aws-cloud",
+    "tags": "cloud-aws-project, aws, ec2, vpc, secretsmanager, cloudwatch, devsecops, monitoring, iam",
+    "date": "2025-04-18 02:00:00 +0200",
+    "content": "🔶 Today’s AWS Hands-On (Project 1 – DevSecOps Epic)  As part of my AWS Epic on the DevSecOps learning journey, today’s goal was to complete Project 1: Launch a Secure, Monitorable EC2 in a Custom V..."
+  },
+  {
     "title": "Governance & Policy as Code: My DevSecOps Operating System",
     "url": "/posts/governance-tools-comparison/",
-    "categories": "DevSecOps, Governance",
+    "categories": "blog",
     "tags": "terraform, opa, tfsec, governance, devsecops, policy-as-code",
     "date": "2025-04-15 02:00:00 +0200",
     "content": "🔐 DevSecOps Governance Tools Comparison  As a DevSecOps practitioner, it’s critical to choose the right Policy-as-Code tool based on your stack and use case. Below is a comparison of 5 key tools us..."
@@ -18,7 +26,7 @@
   {
     "title": "Securing Terraform with Checkov: My First Governance Hardening Pass",
     "url": "/posts/checkov-terraform-hardening/",
-    "categories": "DevSecOps, Governance",
+    "categories": "blog",
     "tags": "terraform, checkov, devsecops, security, governance, policy-as-code",
     "date": "2025-04-15 02:00:00 +0200",
     "content": "🔍 Context: As part of my DevSecOps learning journey (Epic 21: Governance &amp;amp; Policy as Code), I wanted to enforce security best practices in a live Terraform project. The goal was to use Checkov ..."
@@ -26,18 +34,26 @@
   {
     "title": "How I Brought My Broken DevSecOps Blog Back to Life – A Jekyll, Ruby & GitHub Pages Debugging Journey",
     "url": "/posts/jekyll-ruby-debugging-journey/",
-    "categories": "Jekyll, GitHub Pages, Ruby, Debugging",
-    "tags": "jekyll, ruby, github-pages, minimal-mistakes, blog, errors",
+    "categories": "blog",
+    "tags": "jekyll, ruby, github-pages, minimal-mistakes, debugging, errors",
     "date": "2025-04-14 02:00:00 +0200",
     "content": "My debugging journey fixing broken builds caused by Ruby version mismatches, unsupported Jekyll plugins, and GitHub Pages limitations — with real errors and fixes."
   },
   {
+    "title": "Understanding `.tfvars` in Terraform with Real EC2 Example",
+    "url": "/posts/terraform-tfvars-ec2-example/",
+    "categories": "project-tf",
+    "tags": "terraform-project, tfvars, devsecops, aws, best-practices",
+    "date": "2025-04-12 02:00:00 +0200",
+    "content": "A practical deep dive into `.tfvars` usage in Terraform, with EC2 deployment examples and industry-aligned best practices."
+  },
+  {
     "title": "Terraform Journey: From Zero to Launching EC2 on AWS",
     "url": "/posts/terraform-basics/",
-    "categories": "Terraform, DevSecOps",
-    "tags": "terraform, aws, ec2, iac, devops, infrastructure-as-code",
+    "categories": "blog",
+    "tags": "terraform, aws, ec2, iac, devsecops, infrastructure-as-code",
     "date": "2025-04-11 02:00:00 +0200",
-    "content": "🧠 Why I Chose Terraform  Coming from a project management and academic background, I wanted to actually build things — infrastructure included. I chose Terraform because:     Declarative Syntax: Wr..."
+    "content": "My hands-on journey learning Terraform by deploying EC2 instances on AWS, including challenges faced and security considerations."
   }
   
 ]

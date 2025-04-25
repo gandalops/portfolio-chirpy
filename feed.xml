@@ -4,7 +4,7 @@
   <id>https://www.opsbygandal.dev/</id>
   <title>Yogesh Gandal</title>
   <subtitle>A DevSecOps portfolio highlighting my projects and learning journey through hands-on blogs, guided by AI assistance....</subtitle>
-  <updated>2025-04-24T22:27:29+02:00</updated>
+  <updated>2025-04-25T13:56:25+02:00</updated>
   <author>
     <name>Yogesh Shankar Gandal</name>
     <uri>https://www.opsbygandal.dev/</uri>
@@ -34,13 +34,35 @@
 
   
     
-    <category term="DevSecOps" />
-    
-    <category term="Git" />
+    <category term="blog" />
     
   
 
   <summary>🧩 The Situation  I had a working build from six hours ago. But after a flurry of local experiments and edits, I found myself in a tangled mess of changes, errors, and untracked files.  I wanted a clean slate, but I also didn’t want to lose the ideas and partial work I’d explored.  Sound familiar? This is one of those real-world Git moments where theory meets panic — and experience begins.    😰 ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>AWS Project 1: Launching a Secure, Monitorable EC2 — My First DevSecOps Lab</title>
+    <link href="https://www.opsbygandal.dev/posts/aws-project1-secure-ec2/" rel="alternate" type="text/html" title="AWS Project 1: Launching a Secure, Monitorable EC2 — My First DevSecOps Lab" />
+    <published>2025-04-18T02:00:00+02:00</published>
+  
+    <updated>2025-04-18T02:00:00+02:00</updated>
+  
+    <id>https://www.opsbygandal.dev/posts/aws-project1-secure-ec2/</id>
+    <content type="text/html" src="https://www.opsbygandal.dev/posts/aws-project1-secure-ec2/" />
+    <author>
+      <name>Yogesh Shankar Gandal</name>
+    </author>
+
+  
+    
+    <category term="project-aws-cloud" />
+    
+  
+
+  <summary>🔶 Today’s AWS Hands-On (Project 1 – DevSecOps Epic)  As part of my AWS Epic on the DevSecOps learning journey, today’s goal was to complete Project 1: Launch a Secure, Monitorable EC2 in a Custom VPC — fully hands-on via the AWS Console, without Terraform or automation.    🚩 Problem Statement     I wanted to understand how to manually create a secure, production-ready EC2 environment in AWS — n...</summary>
 
   </entry>
 
@@ -60,9 +82,7 @@
 
   
     
-    <category term="DevSecOps" />
-    
-    <category term="Governance" />
+    <category term="blog" />
     
   
 
@@ -86,9 +106,7 @@
 
   
     
-    <category term="DevSecOps" />
-    
-    <category term="Governance" />
+    <category term="blog" />
     
   
 
@@ -112,43 +130,11 @@
 
   
     
-    <category term="Jekyll" />
-    
-    <category term="GitHub Pages" />
-    
-    <category term="Ruby" />
-    
-    <category term="Debugging" />
+    <category term="blog" />
     
   
 
   <summary>My debugging journey fixing broken builds caused by Ruby version mismatches, unsupported Jekyll plugins, and GitHub Pages limitations — with real errors and fixes.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Terraform Journey: From Zero to Launching EC2 on AWS</title>
-    <link href="https://www.opsbygandal.dev/posts/terraform-basics/" rel="alternate" type="text/html" title="Terraform Journey: From Zero to Launching EC2 on AWS" />
-    <published>2025-04-11T02:00:00+02:00</published>
-  
-    <updated>2025-04-15T02:00:00+02:00</updated>
-  
-    <id>https://www.opsbygandal.dev/posts/terraform-basics/</id>
-    <content type="text/html" src="https://www.opsbygandal.dev/posts/terraform-basics/" />
-    <author>
-      <name>Yogesh Shankar Gandal</name>
-    </author>
-
-  
-    
-    <category term="Terraform" />
-    
-    <category term="DevSecOps" />
-    
-  
-
-  <summary>🧠 Why I Chose Terraform  Coming from a project management and academic background, I wanted to actually build things — infrastructure included. I chose Terraform because:     Declarative Syntax: Write what you want, not how to get there   Multi-Cloud Ready: Works with AWS, Azure, GCP and more   DevSecOps Integration: Fits perfectly in CI/CD pipelines   Community Support: 1,000+ providers and mo...</summary>
 
   </entry>
 
