@@ -132,9 +132,10 @@ spec:
 ---
 
 *Thanks for reading. May your pipelines be green, your infra be tagged, and your security posture be strong!*
-🔗 Explore my projects, policies, and pipelines on [opsbygandal.dev](https://www.opsbygandal.dev)  
-📁 Browse my GitHub repositories: [github.com/gandalops](https://github.com/gandalops?tab=repositories)  
-🔄 Feedback? Let’s connect on [LinkedIn](https://www.linkedin.com/)
+
+🔗 Explore my other blogs at [opsbygandal.dev](https://www.opsbygandal.dev)  
+📁 Check out the GitHub repo [https://github.com/gandalops/portfolio-chirpy]  
+🔄 Let’s connect on [LinkedIn](https://www.linkedin.com/)
 
 ---
 

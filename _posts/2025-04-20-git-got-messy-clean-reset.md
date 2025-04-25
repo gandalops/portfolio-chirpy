@@ -164,8 +164,9 @@ By backing up before resetting, I avoided loss, confusion, and panic — and I g
 ---
 
 *Thanks for reading. May your commits be clean, your merges be conflict-free, and your backups always be one step ahead!*
-🔗 Explore more projects and secure Git workflows at [opsbygandal.dev](https://www.opsbygandal.dev)  
-📁 GitHub: [github.com/gandalops](https://github.com/gandalops?tab=repositories)  
+
+🔗 Explore my other blogs at [opsbygandal.dev](https://www.opsbygandal.dev)  
+📁 Check out the GitHub repo [https://github.com/gandalops/portfolio-chirpy]  
 🔄 Let’s connect on [LinkedIn](https://www.linkedin.com/)
 
 ---
