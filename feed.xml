@@ -4,7 +4,7 @@
   <id>https://www.opsbygandal.dev/</id>
   <title>Yogesh Gandal</title>
   <subtitle>A DevSecOps portfolio highlighting my projects and learning journey through hands-on blogs, guided by AI assistance....</subtitle>
-  <updated>2025-04-25T13:56:25+02:00</updated>
+  <updated>2025-04-25T15:12:06+02:00</updated>
   <author>
     <name>Yogesh Shankar Gandal</name>
     <uri>https://www.opsbygandal.dev/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>From Minimal Mistakes to Chirpy: Why I Switched and Never Looked Back</title>
+    <link href="https://www.opsbygandal.dev/posts/minimal-mistakes-to-chirpy/" rel="alternate" type="text/html" title="From Minimal Mistakes to Chirpy: Why I Switched and Never Looked Back" />
+    <published>2025-04-25T02:00:00+02:00</published>
+  
+    <updated>2025-04-25T02:00:00+02:00</updated>
+  
+    <id>https://www.opsbygandal.dev/posts/minimal-mistakes-to-chirpy/</id>
+    <content type="text/html" src="https://www.opsbygandal.dev/posts/minimal-mistakes-to-chirpy/" />
+    <author>
+      <name>Yogesh Shankar Gandal</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  <summary>— Me, after one week of customizing Minimal Mistakes   🔧 The Initial Setup: Minimal Mistakes Looked Promising…  Like many developers building a personal portfolio, I started with the popular Minimal Mistakes Jekyll theme. It’s feature-rich, clean, and highly customizable.  But soon after, I hit the wall.  😓 What Went Wrong with Minimal Mistakes  Here’s what I struggled with:  1. 🧩 Too Much Cust...</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>🔍 Context: As part of my DevSecOps learning journey (Epic 21: Governance &amp;amp;amp; Policy as Code), I wanted to enforce security best practices in a live Terraform project. The goal was to use Checkov to scan my Infrastructure as Code (IaC) and apply necessary fixes to improve compliance, visibility, and confidence in what I was deploying.    🧱 Scenario Before Scan  I began with a basic Terraform s...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>How I Brought My Broken DevSecOps Blog Back to Life – A Jekyll, Ruby &amp; GitHub Pages Debugging Journey</title>
-    <link href="https://www.opsbygandal.dev/posts/jekyll-ruby-debugging-journey/" rel="alternate" type="text/html" title="How I Brought My Broken DevSecOps Blog Back to Life – A Jekyll, Ruby &amp;amp; GitHub Pages Debugging Journey" />
-    <published>2025-04-14T02:00:00+02:00</published>
-  
-    <updated>2025-04-15T02:00:00+02:00</updated>
-  
-    <id>https://www.opsbygandal.dev/posts/jekyll-ruby-debugging-journey/</id>
-    <content type="text/html" src="https://www.opsbygandal.dev/posts/jekyll-ruby-debugging-journey/" />
-    <author>
-      <name>Yogesh Shankar Gandal</name>
-    </author>
-
-  
-    
-    <category term="blog" />
-    
-  
-
-  <summary>My debugging journey fixing broken builds caused by Ruby version mismatches, unsupported Jekyll plugins, and GitHub Pages limitations — with real errors and fixes.</summary>
 
   </entry>
 

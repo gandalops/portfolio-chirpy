@@ -1,5 +1,13 @@
 [
   {
+    "title": "From Minimal Mistakes to Chirpy: Why I Switched and Never Looked Back",
+    "url": "/posts/minimal-mistakes-to-chirpy/",
+    "categories": "blog",
+    "tags": "jekyll, minimal-mistakes, chirpy, devcontainer, ruby, productivity, devsecops, portfolio",
+    "date": "2025-04-25 02:00:00 +0200",
+    "content": "— Me, after one week of customizing Minimal Mistakes   🔧 The Initial Setup: Minimal Mistakes Looked Promising…  Like many developers building a personal portfolio, I started with the popular Minima..."
+  },
+  {
     "title": "Git Got Messy: How I Safely Reverted to a Clean Commit Without Losing My Work",
     "url": "/posts/git-got-messy-clean-reset/",
     "categories": "blog",
