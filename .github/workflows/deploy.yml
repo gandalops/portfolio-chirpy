@@ -26,8 +26,15 @@ jobs:
           bundle config set deployment 'true'
           bundle install
 
-      - name: Build site
-        run: bundle exec jekyll build
+      #- name: Build site     Original content
+      #  run: bundle exec jekyll build
+
+      - name: 🔍 Print Environment Variables    #if didnt work remove this
+        run: env
+
+      - name: 🛠️ Build site in production mode  #if didnt work remove this
+        run: |
+          JEKYLL_ENV=production bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
