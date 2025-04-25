@@ -2,8 +2,8 @@
 title: "Securing Terraform with Checkov: My First Governance Hardening Pass"
 date: 2025-04-15 00:00:00 +0000
 last_modified_at: 2025-04-15 00:00:00 +0000
-categories: [DevSecOps, Governance]
-tags: [terraform, checkov, devsecops, security, governance, policy-as-code]
+categories: [ blog]
+tags: [ terraform, checkov, devsecops, security, governance, policy-as-code]
 excerpt: "My first hands-on experience applying security policies to Terraform using Checkov. From 11 failed checks to just 3, here’s what I learned."
 pin: false
 math: false

@@ -2,7 +2,7 @@
 title: "Governance & Policy as Code: My DevSecOps Operating System"
 date: 2025-04-15 00:00:00 +0000
 last_modified_at: 2025-04-15 00:00:00 +0000
-categories: [DevSecOps, Governance]
+categories: [blog]
 tags: [terraform, opa, tfsec, governance, devsecops, policy-as-code]
 excerpt: "How I apply real-world governance rules, policy enforcement, and security practices across all 21 DevSecOps Epics."
 pin: false

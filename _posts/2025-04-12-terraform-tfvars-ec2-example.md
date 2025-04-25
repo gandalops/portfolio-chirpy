@@ -1,9 +1,8 @@
 ---
 title: "Understanding `.tfvars` in Terraform with Real EC2 Example"
 date: 2025-04-12 00:00:00 +0000
-layout: page
-categories: [Terraform]
-tags: [terraform-project] #devsecops, aws, best-practices
+categories: [project-tf]
+tags: [terraform-project,tfvars, devsecops, aws, best-practices]
 description: "A practical deep dive into `.tfvars` usage in Terraform, with EC2 deployment examples and industry-aligned best practices."
 pin: false
 math: false

@@ -2,7 +2,7 @@
 title: "Git Got Messy: How I Safely Reverted to a Clean Commit Without Losing My Work"
 date: 2025-04-20 00:00:00 +0000
 last_modified_at: 2025-04-20 00:00:00 +0000
-categories: [DevSecOps, Git]
+categories: [blog]
 tags: [git, reset, backup, branching, dev workflow, wip]
 excerpt: "My Git working directory got messy after hours of local experimentation. Here's how I backed up my changes, reset cleanly, and what I learned about safe Git workflows."
 pin: false

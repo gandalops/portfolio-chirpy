@@ -172,9 +172,6 @@ collections:
   tabs:
     output: true
     sort_by: order
-  projects:                      # Newly added portion for projects, can be removed, if didn't work
-    output: true
-    permalink: /projects/:path/
 
 defaults:
   - scope:
@@ -197,12 +194,7 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-  - scope:                # Newly added portion for projects, can be removed, if didn't work
-      path: ""
-      type: projects
-    values:
-      layout: page
-      permalink: /projects/:title/
+  
 
 sass:
   style: compressed

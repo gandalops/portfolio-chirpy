@@ -2,8 +2,9 @@
 title: "AWS Project 1: Launching a Secure, Monitorable EC2 — My First DevSecOps Lab"
 date: 2025-04-18 00:00:00 +0000
 last_modified_at: 2025-04-18 00:00:00 +0000
-categories: [DevSecOps, AWS]
-tags: [cloud-aws-project] # aws, ec2, vpc, secretsmanager, cloudwatch, devsecops, monitoring, iam
+layout: post #page
+categories: [project-aws-cloud]
+tags: [cloud-aws-project, aws, ec2, vpc, secretsmanager, cloudwatch, devsecops, monitoring, iam]
 excerpt: "My hands-on DevSecOps journey of creating a secure and monitorable EC2 environment in AWS, with IAM, Secrets Manager, CloudWatch, CloudTrail, and cleanup."
 pin: false
 math: false

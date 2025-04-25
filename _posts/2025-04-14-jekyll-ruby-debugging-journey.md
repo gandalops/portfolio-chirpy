@@ -2,8 +2,8 @@
 title: "How I Brought My Broken DevSecOps Blog Back to Life – A Jekyll, Ruby & GitHub Pages Debugging Journey"
 date: 2025-04-14 00:00:00 +0000
 last_modified_at: 2025-04-15 00:00:00 +0000
-categories: [Jekyll, GitHub Pages, Ruby, Debugging]
-tags: [jekyll, ruby, github-pages, minimal-mistakes, blog, errors]
+categories: [blog]
+tags: [jekyll, ruby, github-pages, minimal-mistakes, debugging, errors]
 description: "My debugging journey fixing broken builds caused by Ruby version mismatches, unsupported Jekyll plugins, and GitHub Pages limitations — with real errors and fixes."
 pin: false
 math: false

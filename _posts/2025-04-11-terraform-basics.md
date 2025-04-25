@@ -2,9 +2,9 @@
 title: "Terraform Journey: From Zero to Launching EC2 on AWS"
 date: 2025-04-11 00:00:00 +0000
 last_modified_at: 2025-04-15 00:00:00 +0000
-categories: [Terraform, DevSecOps]
-tags: [terraform, aws, ec2, iac, devops, infrastructure-as-code]
-excerpt: "My hands-on journey learning Terraform by deploying EC2 instances on AWS, including challenges faced and security considerations."
+categories: [blog]
+tags: [terraform, aws, ec2, iac, devsecops, infrastructure-as-code]
+description: "My hands-on journey learning Terraform by deploying EC2 instances on AWS, including challenges faced and security considerations."
 pin: false
 math: false
 toc: true
