@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://www.opsbygandal.dev"
+url: https://www.opsbygandal.dev
 
 github:
   username: gandalops # change to your GitHub username
@@ -59,7 +59,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: "G-RNKJP27JVX" # fill in your Google Analytics ID
+    id: G-RNKJP27JVX # fill in your Google Analytics ID
     anonymize_ip: true # for privacy/GDPR
   goatcounter:
     id: # fill in your GoatCounter ID
