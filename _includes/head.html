@@ -112,22 +112,26 @@
       ></script>
     {% endif %}
 
-    <!-- Web Analytics 
-    {% for analytics in site.analytics %}
-      {% capture str %}{{ analytics }}{% endcapture %}
-      {% assign platform = str | split: '{' | first %}}
-      {% if site.analytics[platform].id and site.analytics[platform].id != empty %}
-        {% include analytics/{{ platform }}.html %}
-      {% endif %}
-    {% endfor %}
-  {% endif %}
-   -->
+    <!-- 
+    Web Analytics
+    This block was for looping through multiple analytics providers (currently disabled)
+    {% comment %}
+      {% for analytics in site.analytics %}
+        {% capture str %}{{ analytics }}{% endcapture %}
+        {% assign platform = str | split: '{' | first %}
+        {% if site.analytics[platform].id and site.analytics[platform].id != empty %}
+          {% include analytics/{{ platform }}.html %}
+        {% endif %}
+      {% endfor %}
+    {% endcomment %}
+    -->
+    
+    <!-- Web Analytics: Active method (single provider) -->
+    {% if site.analytics.provider %}
+      {% include analytics/{{ site.analytics.provider }}.html %}
+    {% endif %}
 
-  <!-- Web Analytics # can be removed if didnt work and uncomment above web analytics-->
-  {% if site.analytics.provider %}
-    {% include analytics/{{ site.analytics.provider }}.html %}
-  {% endif %}
-
+  {% endif %} <!-- ✅ Close 'jekyll.environment' if block properly -->
    
   {% include metadata-hook.html %}
 </head>
