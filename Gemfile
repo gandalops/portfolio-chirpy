@@ -2,8 +2,9 @@
 
 source "https://rubygems.org"
 
-gemspec
+# gemspec   #uncomment this and remove  Add this line below to go back to normal state
 
+gem "jekyll-theme-chirpy"  # <-- Add this
 gem "html-proofer", "~> 5.0", group: :test
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
