@@ -1,5 +1,13 @@
 [
   {
+    "title": "Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD",
+    "url": "/posts/main-vs-gh-pages-lessons/",
+    "categories": "blog",
+    "tags": "github, chirpy, ci-cd, devops",
+    "date": "2025-04-26 00:00:00 +0200",
+    "content": "Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD  Recently, while setting up my portfolio site using the Chirpy Jekyll theme and GitHub Actions, I faced an important wo..."
+  },
+  {
     "title": "From Minimal Mistakes to Chirpy: Why I Switched and Never Looked Back",
     "url": "/posts/minimal-mistakes-to-chirpy/",
     "categories": "blog",

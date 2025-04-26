@@ -4,7 +4,7 @@
   <id>https://www.opsbygandal.dev/</id>
   <title>Yogesh Gandal</title>
   <subtitle>A DevSecOps portfolio highlighting my projects and learning journey through hands-on blogs, guided by AI assistance....</subtitle>
-  <updated>2025-04-26T10:56:19+02:00</updated>
+  <updated>2025-04-26T11:16:16+02:00</updated>
   <author>
     <name>Yogesh Shankar Gandal</name>
     <uri>https://www.opsbygandal.dev/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD</title>
+    <link href="https://www.opsbygandal.dev/posts/main-vs-gh-pages-lessons/" rel="alternate" type="text/html" title="Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD" />
+    <published>2025-04-26T00:00:00+02:00</published>
+  
+    <updated>2025-04-26T00:00:00+02:00</updated>
+  
+    <id>https://www.opsbygandal.dev/posts/main-vs-gh-pages-lessons/</id>
+    <content type="text/html" src="https://www.opsbygandal.dev/posts/main-vs-gh-pages-lessons/" />
+    <author>
+      <name>Yogesh Shankar Gandal</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  <summary>Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD  Recently, while setting up my portfolio site using the Chirpy Jekyll theme and GitHub Actions, I faced an important workflow issue. Through this experience, I learned a fundamental concept that applies not only to building static websites, but also to real-world CI/CD pipelines.  Here are my combined learnings, struc...</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>🔐 DevSecOps Governance Tools Comparison  As a DevSecOps practitioner, it’s critical to choose the right Policy-as-Code tool based on your stack and use case. Below is a comparison of 5 key tools used to enforce governance across CI/CD pipelines, Infrastructure as Code, and Kubernetes.    📊 Tool Overview Table                 Tool       Ecosystem Fit       Policy Language       Best For       Re...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Securing Terraform with Checkov: My First Governance Hardening Pass</title>
-    <link href="https://www.opsbygandal.dev/posts/checkov-terraform-hardening/" rel="alternate" type="text/html" title="Securing Terraform with Checkov: My First Governance Hardening Pass" />
-    <published>2025-04-15T02:00:00+02:00</published>
-  
-    <updated>2025-04-15T02:00:00+02:00</updated>
-  
-    <id>https://www.opsbygandal.dev/posts/checkov-terraform-hardening/</id>
-    <content type="text/html" src="https://www.opsbygandal.dev/posts/checkov-terraform-hardening/" />
-    <author>
-      <name>Yogesh Shankar Gandal</name>
-    </author>
-
-  
-    
-    <category term="blog" />
-    
-  
-
-  <summary>🔍 Context: As part of my DevSecOps learning journey (Epic 21: Governance &amp;amp;amp; Policy as Code), I wanted to enforce security best practices in a live Terraform project. The goal was to use Checkov to scan my Infrastructure as Code (IaC) and apply necessary fixes to improve compliance, visibility, and confidence in what I was deploying.    🧱 Scenario Before Scan  I began with a basic Terraform s...</summary>
 
   </entry>
 

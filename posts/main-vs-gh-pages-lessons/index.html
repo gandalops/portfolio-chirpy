@@ -30,23 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="project-tf" />
+<meta property="og:title" content="Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="A DevSecOps portfolio highlighting my projects and learning journey through hands-on blogs, guided by AI assistance…." />
-<meta property="og:description" content="A DevSecOps portfolio highlighting my projects and learning journey through hands-on blogs, guided by AI assistance…." />
-<link rel="canonical" href="https://www.opsbygandal.dev/categories/project-tf/" />
-<meta property="og:url" content="https://www.opsbygandal.dev/categories/project-tf/" />
+<meta name="description" content="Lessons learned while correctly separating source and production branches, both for static websites like Chirpy and real-world CI/CD deployments." />
+<meta property="og:description" content="Lessons learned while correctly separating source and production branches, both for static websites like Chirpy and real-world CI/CD deployments." />
+<link rel="canonical" href="https://www.opsbygandal.dev/posts/main-vs-gh-pages-lessons/" />
+<meta property="og:url" content="https://www.opsbygandal.dev/posts/main-vs-gh-pages-lessons/" />
 <meta property="og:site_name" content="Yogesh Gandal" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-04-26T00:00:00+02:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="project-tf" />
+<meta property="twitter:title" content="Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD" />
 <meta name="google-site-verification" content="https://www.opsbygandal.dev" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A DevSecOps portfolio highlighting my projects and learning journey through hands-on blogs, guided by AI assistance….","headline":"project-tf","url":"https://www.opsbygandal.dev/categories/project-tf/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-04-26T00:00:00+02:00","datePublished":"2025-04-26T00:00:00+02:00","description":"Lessons learned while correctly separating source and production branches, both for static websites like Chirpy and real-world CI/CD deployments.","headline":"Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.opsbygandal.dev/posts/main-vs-gh-pages-lessons/"},"url":"https://www.opsbygandal.dev/posts/main-vs-gh-pages-lessons/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>project-tf | Yogesh Gandal
+  <title>Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD | Yogesh Gandal
   </title>
 
   <!--
@@ -110,9 +111,16 @@
   <!-- 3rd-party Dependencies -->
 
   
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css">
   
 
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
+  
+
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -128,6 +136,13 @@
 <!-- layout specified -->
 
 
+  
+
+  
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
+
 
 
 
@@ -177,9 +192,37 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
 
 
 
@@ -187,11 +230,15 @@
 
 
 
-<script defer src="/assets/js/dist/misc.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -413,14 +460,10 @@
           
         
           
-            <span>
-              <a href="/categories/">Categories</a>
-            </span>
-          
         
           
             
-              <span>project-tf</span>
+              <span>Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD</span>
             
 
           
@@ -434,7 +477,7 @@
     </button>
 
     <div id="topbar-title">
-      Category
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -460,28 +503,196 @@
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             
-              
+              <!-- Refactor the HTML structure -->
 
 
 
-<article class="px-1">
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Change the icon of checkbox -->
+
+
+
+<!-- Handle images -->
+
+
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
   
     
-
-
-
-<div id="page-category">
-  <h1 class="ps-lg-2">
-    <i class="far fa-folder-open fa-fw text-muted"></i>
-    project-tf
-    <span class="lead text-muted ps-2">1</span>
-  </h1>
-
-  <ul class="content ps-0">
     
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/posts/terraform-tfvars-ec2-example/">Understanding `.tfvars` in Terraform with Real EC2 Example</a>
-        <span class="dash flex-grow-1"></span>
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
+
+  
+  
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- return -->
+
+
+
+
+
+
+
+
+
+
+<article class="px-1" data-toc="true">
+  <header>
+    <h1 data-toc-skip>Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD</h1>
+    
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
         <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
@@ -492,22 +703,347 @@
 
 <time
   
-    class="text-muted small text-nowrap"
-  
-  data-ts="1744416000"
+  data-ts="1745618400"
   data-df="ll"
   
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
 >
-  Apr 12, 2025
+  Apr 26, 2025
 </time>
 
-      </li>
-    
-  </ul>
-</div>
+      </span>
+
+      <!-- lastmod date -->
+      
+
+      
+
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          
+
+          By
+
+          <em>
+            
+              <a href="https://www.linkedin.com/in/yogesh-gandal">Yogesh Shankar Gandal</a>
+            
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="477 words"
+>
+  <em>2 min</em> read</span>
+
+        </div>
+      </div>
+    </div>
+  </header>
 
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
+
+  <div class="content">
+    <h1 id="main-vs-gh-pages-lessons-from-setting-up-chirpy-and-understanding-real-cicd">Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD</h1>
+
+<p>Recently, while setting up my portfolio site using the Chirpy Jekyll theme and GitHub Actions, I faced an important workflow issue. Through this experience, I learned a fundamental concept that applies not only to building static websites, but also to real-world CI/CD pipelines.</p>
+
+<p>Here are my combined learnings, structured for easy recall.</p>
+
+<hr />
+
+<h2 id="-what-you-should-take-from-this-incident"><span class="me-2">📚 What You Should Take from This Incident</span><a href="#-what-you-should-take-from-this-incident" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<h3 id="1-main-or-master-is-for-source-code"><span class="me-2">1. <code class="language-plaintext highlighter-rouge">main</code> (or <code class="language-plaintext highlighter-rouge">master</code>) is for Source Code</span><a href="#1-main-or-master-is-for-source-code" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>Always keep the following in <code class="language-plaintext highlighter-rouge">main</code>:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">_config.yml</code></li>
+  <li><code class="language-plaintext highlighter-rouge">index.html</code></li>
+  <li><code class="language-plaintext highlighter-rouge">_posts/</code>, <code class="language-plaintext highlighter-rouge">_layouts/</code>, <code class="language-plaintext highlighter-rouge">_includes/</code></li>
+  <li>Scripts, workflows, and all editable project files</li>
+</ul>
+
+<p>You edit, update, and manage your project inside the <code class="language-plaintext highlighter-rouge">main</code> branch.</p>
+
+<h3 id="2-gh-pages-is-for-built-static-output"><span class="me-2">2. <code class="language-plaintext highlighter-rouge">gh-pages</code> is for Built Static Output</span><a href="#2-gh-pages-is-for-built-static-output" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>The <code class="language-plaintext highlighter-rouge">gh-pages</code> branch should contain only:</p>
+<ul>
+  <li>Static HTML</li>
+  <li>CSS, JS, Images</li>
+  <li>Ready-to-serve files generated by a build process</li>
+</ul>
+
+<p>You never manually edit <code class="language-plaintext highlighter-rouge">gh-pages</code>. It is the final product served by GitHub Pages.</p>
+
+<h3 id="-easy-rule-to-remember"><span class="me-2">🔄 Easy Rule to Remember</span><a href="#-easy-rule-to-remember" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>| Task | Use <code class="language-plaintext highlighter-rouge">main</code> or <code class="language-plaintext highlighter-rouge">gh-pages</code>? |
+|:—|:—|
+| Writing, updating, designing | <code class="language-plaintext highlighter-rouge">main</code> |
+| Building and serving | <code class="language-plaintext highlighter-rouge">gh-pages</code> |</p>
+
+<h3 id="-mental-map"><span class="me-2">🧱 Mental Map</span><a href="#-mental-map" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>[main] --&gt; GitHub Action builds --&gt; [gh-pages] --&gt; GitHub Pages serves website
+</pre></td></tr></tbody></table></code></div></div>
+<p>You work on <code class="language-plaintext highlighter-rouge">main</code>, GitHub Actions build it, and <code class="language-plaintext highlighter-rouge">gh-pages</code> serves it.</p>
+
+<hr />
+
+<h2 id="-in-any-cicd-pipeline-including-github-actions"><span class="me-2">🎯 In Any CI/CD Pipeline (Including GitHub Actions)</span><a href="#-in-any-cicd-pipeline-including-github-actions" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>The same principle applies even in larger CI/CD systems for applications, APIs, cloud infrastructure, etc.</p>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Purpose</th>
+      <th style="text-align: left">What Happens</th>
+      <th style="text-align: left">Branch</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Source Code</td>
+      <td style="text-align: left">Developers push code</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">main</code>, <code class="language-plaintext highlighter-rouge">develop</code>, or feature branches</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Build / Test</td>
+      <td style="text-align: left">GitHub Actions or Jenkins builds and tests automatically</td>
+      <td style="text-align: left">triggered from <code class="language-plaintext highlighter-rouge">main</code> or PR</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Deploy</td>
+      <td style="text-align: left">GitHub Actions deploy final product (artifact, website, infra)</td>
+      <td style="text-align: left">deploy to servers/cloud</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p>You never directly edit the production output manually.</p>
+
+<h3 id="-real-world-cicd-examples"><span class="me-2">💥 Real-World CI/CD Examples</span><a href="#-real-world-cicd-examples" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ul>
+  <li><strong>Java App</strong>: Push code to <code class="language-plaintext highlighter-rouge">main</code> -&gt; GitHub Actions build JAR -&gt; Dockerize -&gt; Deploy to AWS ECS.</li>
+  <li><strong>React Website</strong>: Push code to <code class="language-plaintext highlighter-rouge">main</code> -&gt; Build static site -&gt; Deploy to S3 + CloudFront.</li>
+  <li><strong>Terraform Infrastructure</strong>: Push .tf files to <code class="language-plaintext highlighter-rouge">main</code> -&gt; Validate and apply infrastructure changes automatically.</li>
+</ul>
+
+<h3 id="-professional-deployment-flow"><span class="me-2">📊 Professional Deployment Flow</span><a href="#-professional-deployment-flow" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>Developer pushes to [main]
+          ↓
+GitHub Actions pipeline triggers build/test
+          ↓
+If successful, deploys to production target
+</pre></td></tr></tbody></table></code></div></div>
+
+<hr />
+
+<h1 id="-summary-checklist">📊 Summary Checklist</h1>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Context</th>
+      <th style="text-align: left">Main Branch</th>
+      <th style="text-align: left">Production (Output)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Jekyll/Chirpy Site</td>
+      <td style="text-align: left">Source code (<code class="language-plaintext highlighter-rouge">main</code>)</td>
+      <td style="text-align: left">Built site (<code class="language-plaintext highlighter-rouge">gh-pages</code>)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Java App CI/CD</td>
+      <td style="text-align: left">Source code (<code class="language-plaintext highlighter-rouge">main</code>)</td>
+      <td style="text-align: left">Docker image/server deployment</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Terraform Infra</td>
+      <td style="text-align: left">Source code (<code class="language-plaintext highlighter-rouge">main</code>)</td>
+      <td style="text-align: left">Applied cloud infra (AWS, Azure)</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><strong>Golden Rule:</strong></p>
+<blockquote>
+  <p>Work on <code class="language-plaintext highlighter-rouge">main</code>. Let CI/CD or GitHub Actions build and push the result to production targets.</p>
+</blockquote>
+
+<hr />
+
+<p>This learning has changed the way I structure not just static sites, but also application and infrastructure projects. A simple mistake opened a much bigger door to understanding real CI/CD workflows!</p>
+
+<p><em>Thanks for reading. Wishing you a smooth and professional journey in mastering GitHub Actions, branch workflows, and CI/CD pipelines!</em></p>
+
+<p>🔗 Explore my other blogs at <a href="https://www.opsbygandal.dev">opsbygandal.dev</a><br />
+📁 Check out the GitHub repo <a href="https://github.com/gandalops/portfolio-chirpy">portfolio-chirpy</a><br />
+🔄 Let’s connect on <a href="https://www.linkedin.com/">LinkedIn</a></p>
+
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        
+          <a href="/categories/blog/">blog</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/github/"
+            class="post-tag no-text-decoration"
+          >github</a>
+        
+          <a
+            href="/tags/chirpy/"
+            class="post-tag no-text-decoration"
+          >chirpy</a>
+        
+          <a
+            href="/tags/ci-cd/"
+            class="post-tag no-text-decoration"
+          >ci-cd</a>
+        
+          <a
+            href="/tags/devops/"
+            class="post-tag no-text-decoration"
+          >devops</a>
+        
+      </div>
+    
+
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+    
+    
+    
+
+    
+
+      
+
+      <a href="https://twitter.com/intent/tweet?text=Main%20vs%20gh-pages:%20Lessons%20from%20Setting%20Up%20Chirpy%20and%20Understanding%20Real%20CI/CD%20-%20Yogesh%20Gandal&url=https%3A%2F%2Fwww.opsbygandal.dev%2Fposts%2Fmain-vs-gh-pages-lessons%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.opsbygandal.dev%2Fposts%2Fmain-vs-gh-pages-lessons%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
+        <i class="fa-fw fab fa-linkedin"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
+</div>
+
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
 </article>
+
 
             
           </main>
@@ -1722,12 +2258,258 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Further Reading</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/minimal-mistakes-to-chirpy/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1745539200"
+  data-df="ll"
+  
+>
+  Apr 25, 2025
+</time>
+
+              <h4 class="pt-0 my-2">From Minimal Mistakes to Chirpy: Why I Switched and Never Looked Back</h4>
+              <div class="text-muted">
+                <p>— Me, after one week of customizing Minimal Mistakes   🔧 The Initial Setup: Minimal Mistakes Looked Promising…  Like many developers building a personal portfolio, I started with the popular Minima...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/git-got-messy-clean-reset/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1745107200"
+  data-df="ll"
+  
+>
+  Apr 20, 2025
+</time>
+
+              <h4 class="pt-0 my-2">Git Got Messy: How I Safely Reverted to a Clean Commit Without Losing My Work</h4>
+              <div class="text-muted">
+                <p>🧩 The Situation  I had a working build from six hours ago. But after a flurry of local experiments and edits, I found myself in a tangled mess of changes, errors, and untracked files.  I wanted a c...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/governance-tools-comparison/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1744675200"
+  data-df="ll"
+  
+>
+  Apr 15, 2025
+</time>
+
+              <h4 class="pt-0 my-2">Governance & Policy as Code: My DevSecOps Operating System</h4>
+              <div class="text-muted">
+                <p>🔐 DevSecOps Governance Tools Comparison  As a DevSecOps practitioner, it’s critical to choose the right Policy-as-Code tool based on your stack and use case. Below is a comparison of 5 key tools us...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/minimal-mistakes-to-chirpy/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>From Minimal Mistakes to Chirpy: Why I Switched and Never Looked Back</p>
+    </a>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -2964,6 +3746,67 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
+  
+  <!-- https://giscus.app/ -->
+<script>
+  (function () {
+    const themeMapper = Theme.getThemeMapper('light', 'dark_dimmed');
+    const initTheme = themeMapper[Theme.visualState];
+
+    let lang = 'en';if (lang.length > 2 && !lang.startsWith('zh')) {
+      lang = lang.slice(0, 2);
+    }
+
+    let giscusAttributes = {
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'gandalops/portfolio-chirpy',
+      'data-repo-id': 'R_kgDOOe30UQ',
+      'data-category': 'General',
+      'data-category-id': 'DIC_kwDOOe30Uc4Cpa6P',
+      'data-mapping': 'pathname',
+      'data-strict' : '0',
+      'data-reactions-enabled': '1',
+      'data-emit-metadata': '0',
+      'data-theme': initTheme,
+      'data-input-position': 'bottom',
+      'data-lang': lang,
+      'data-loading': 'lazy',
+      crossorigin: 'anonymous',
+      async: ''
+    };
+
+    let giscusNode = document.createElement('script');
+    Object.entries(giscusAttributes).forEach(([key, value]) =>
+      giscusNode.setAttribute(key, value)
+    );
+
+    const $footer = document.querySelector('footer');
+    $footer.insertAdjacentElement("beforebegin", giscusNode);
+
+    addEventListener('message', (event) => {
+      if (event.source === window && event.data && event.data.id === Theme.ID) {
+        const newTheme = themeMapper[Theme.visualState];
+
+        const message = {
+          setConfig: {
+            theme: newTheme
+          }
+        };
+
+        const giscus =
+          document.getElementsByClassName('giscus-frame')[0].contentWindow;
+        giscus.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+    });
+  })();
+</script>
+
+
 
     
 
