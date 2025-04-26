@@ -58,6 +58,7 @@ webmaster_verifications:
 
 # Web Analytics Settings
 analytics:
+  provider: "google-gtag" # this line can be removed if it didnt worked
   google:
     id: G-RNKJP27JVX # fill in your Google Analytics ID
     anonymize_ip: true # for privacy/GDPR
