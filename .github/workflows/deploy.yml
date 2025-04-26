@@ -2,7 +2,7 @@ name: Build and Deploy Chirpy
 
 on:
   push:
-    branches: [main]
+    branches: [gh-pages]    #[main]
   workflow_dispatch:
 
 jobs:
