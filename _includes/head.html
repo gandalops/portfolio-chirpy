@@ -112,7 +112,7 @@
       ></script>
     {% endif %}
 
-    <!-- Web Analytics -->
+    <!-- Web Analytics 
     {% for analytics in site.analytics %}
       {% capture str %}{{ analytics }}{% endcapture %}
       {% assign platform = str | split: '{' | first %}}
@@ -121,6 +121,13 @@
       {% endif %}
     {% endfor %}
   {% endif %}
+   -->
 
+  <!-- Web Analytics # can be removed if didnt work and uncomment above web analytics-->
+  {% if site.analytics.provider %}
+    {% include analytics/{{ site.analytics.provider }}.html %}
+  {% endif %}
+
+   
   {% include metadata-hook.html %}
 </head>
