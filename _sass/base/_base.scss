@@ -474,3 +474,11 @@ mjx-container {
     margin-top: 3rem;
   }
 }
+
+/* if did not work then can be removed -26/04/25 */
+/* Hide anchor links on mobile devices */
+@media (max-width: 768px) {
+  .anchor-heading .anchor {
+    display: none;
+  }
+}
