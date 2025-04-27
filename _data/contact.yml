@@ -12,9 +12,9 @@
   icon: "fa-brands fa-x-twitter"
   url:  "https://twitter.com/YogiOps37" # Fill with your Twitter account page, rel="me" will be applied for verification
     
-- type: email
-  icon: "fas fa-envelope"
-  url: "mailto:yogiops37@gmail.com" 
+- type: medium
+  icon: "fab fa-medium"
+  url: "https://medium.com/@yogiops37" # Fill with your Medium account page, rel="me" will be applied for verification
   noblank: true # open link in current tab
 
 - type: rss
