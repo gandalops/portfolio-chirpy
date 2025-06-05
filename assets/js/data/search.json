@@ -1,5 +1,13 @@
 [
   {
+    "title": "How I Debugged My First Web App Locally – A DevOps Beginner’s Journey",
+    "url": "/posts/fullstack-web-app-debugging/",
+    "categories": "blog",
+    "tags": "springboot, reactjs, mysql, jwt, devops, debugging",
+    "date": "2025-06-05 02:00:00 +0200",
+    "content": "🛠️ How I Debugged My First Web App Locally – A DevOps Beginner’s Journey  Launching your first full-stack web application is a thrilling yet frustrating experience — and I lived through that roller..."
+  },
+  {
     "title": "Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD",
     "url": "/posts/main-vs-gh-pages-lessons/",
     "categories": "blog",

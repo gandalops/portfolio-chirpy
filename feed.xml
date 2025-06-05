@@ -4,7 +4,7 @@
   <id>https://www.opsbygandal.dev/</id>
   <title>Yogesh Gandal</title>
   <subtitle>A DevSecOps portfolio highlighting my projects and learning journey through hands-on blogs, guided by AI assistance....</subtitle>
-  <updated>2025-04-27T13:04:48+02:00</updated>
+  <updated>2025-06-05T13:48:02+02:00</updated>
   <author>
     <name>Yogesh Shankar Gandal</name>
     <uri>https://www.opsbygandal.dev/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>How I Debugged My First Web App Locally – A DevOps Beginner’s Journey</title>
+    <link href="https://www.opsbygandal.dev/posts/fullstack-web-app-debugging/" rel="alternate" type="text/html" title="How I Debugged My First Web App Locally – A DevOps Beginner’s Journey" />
+    <published>2025-06-05T02:00:00+02:00</published>
+  
+    <updated>2025-06-05T02:00:00+02:00</updated>
+  
+    <id>https://www.opsbygandal.dev/posts/fullstack-web-app-debugging/</id>
+    <content type="text/html" src="https://www.opsbygandal.dev/posts/fullstack-web-app-debugging/" />
+    <author>
+      <name>Yogesh Shankar Gandal</name>
+    </author>
+
+  
+    
+    <category term="blog" />
+    
+  
+
+  <summary>🛠️ How I Debugged My First Web App Locally – A DevOps Beginner’s Journey  Launching your first full-stack web application is a thrilling yet frustrating experience — and I lived through that rollercoaster! This blog shares the gritty details of how I debugged my first Spring Boot + React + MySQL app and finally saw that magical “Dashboard” appear on screen.    🌐 What Is This Web App?  The app i...</summary>
+
+  </entry>
 
   
   <entry>
@@ -111,30 +135,6 @@
   
 
   <summary>🔶 Today’s AWS Hands-On (Project 1 – DevSecOps Epic)  As part of my AWS Epic on the DevSecOps learning journey, today’s goal was to complete Project 1: Launch a Secure, Monitorable EC2 in a Custom VPC — fully hands-on via the AWS Console, without Terraform or automation.    🚩 Problem Statement     I wanted to understand how to manually create a secure, production-ready EC2 environment in AWS — n...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Governance &amp; Policy as Code: My DevSecOps Operating System</title>
-    <link href="https://www.opsbygandal.dev/posts/governance-tools-comparison/" rel="alternate" type="text/html" title="Governance &amp;amp; Policy as Code: My DevSecOps Operating System" />
-    <published>2025-04-15T02:00:00+02:00</published>
-  
-    <updated>2025-04-15T02:00:00+02:00</updated>
-  
-    <id>https://www.opsbygandal.dev/posts/governance-tools-comparison/</id>
-    <content type="text/html" src="https://www.opsbygandal.dev/posts/governance-tools-comparison/" />
-    <author>
-      <name>Yogesh Shankar Gandal</name>
-    </author>
-
-  
-    
-    <category term="blog" />
-    
-  
-
-  <summary>🔐 DevSecOps Governance Tools Comparison  As a DevSecOps practitioner, it’s critical to choose the right Policy-as-Code tool based on your stack and use case. Below is a comparison of 5 key tools used to enforce governance across CI/CD pipelines, Infrastructure as Code, and Kubernetes.    📊 Tool Overview Table                 Tool       Ecosystem Fit       Policy Language       Best For       Re...</summary>
 
   </entry>
 

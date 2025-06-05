@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Securing Terraform with Checkov: My First Governance Hardening Pass" />
+<meta property="og:title" content="How I Debugged My First Web App Locally – A DevOps Beginner’s Journey" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="My first hands-on experience applying security policies to Terraform using Checkov. From 11 failed checks to just 3, here’s what I learned." />
-<meta property="og:description" content="My first hands-on experience applying security policies to Terraform using Checkov. From 11 failed checks to just 3, here’s what I learned." />
-<link rel="canonical" href="https://www.opsbygandal.dev/posts/checkov-terraform-hardening/" />
-<meta property="og:url" content="https://www.opsbygandal.dev/posts/checkov-terraform-hardening/" />
+<meta name="description" content="How I went from 401 Unauthorized to a working login flow. A beginner’s breakdown of debugging a full-stack expense tracker with Spring Boot, JWT, React, and MySQL." />
+<meta property="og:description" content="How I went from 401 Unauthorized to a working login flow. A beginner’s breakdown of debugging a full-stack expense tracker with Spring Boot, JWT, React, and MySQL." />
+<link rel="canonical" href="https://www.opsbygandal.dev/posts/fullstack-web-app-debugging/" />
+<meta property="og:url" content="https://www.opsbygandal.dev/posts/fullstack-web-app-debugging/" />
 <meta property="og:site_name" content="Yogesh Gandal" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-04-15T02:00:00+02:00" />
+<meta property="article:published_time" content="2025-06-05T02:00:00+02:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Securing Terraform with Checkov: My First Governance Hardening Pass" />
+<meta property="twitter:title" content="How I Debugged My First Web App Locally – A DevOps Beginner’s Journey" />
 <meta name="google-site-verification" content="https://www.opsbygandal.dev" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-04-15T02:00:00+02:00","datePublished":"2025-04-15T02:00:00+02:00","description":"My first hands-on experience applying security policies to Terraform using Checkov. From 11 failed checks to just 3, here’s what I learned.","headline":"Securing Terraform with Checkov: My First Governance Hardening Pass","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.opsbygandal.dev/posts/checkov-terraform-hardening/"},"url":"https://www.opsbygandal.dev/posts/checkov-terraform-hardening/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-05T02:00:00+02:00","datePublished":"2025-06-05T02:00:00+02:00","description":"How I went from 401 Unauthorized to a working login flow. A beginner’s breakdown of debugging a full-stack expense tracker with Spring Boot, JWT, React, and MySQL.","headline":"How I Debugged My First Web App Locally – A DevOps Beginner’s Journey","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.opsbygandal.dev/posts/fullstack-web-app-debugging/"},"url":"https://www.opsbygandal.dev/posts/fullstack-web-app-debugging/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Securing Terraform with Checkov: My First Governance Hardening Pass | Yogesh Gandal
+  <title>How I Debugged My First Web App Locally – A DevOps Beginner’s Journey | Yogesh Gandal
   </title>
 
   <!--
@@ -463,7 +463,7 @@
         
           
             
-              <span>Securing Terraform with Checkov: My First Governance Hardening Pass</span>
+              <span>How I Debugged My First Web App Locally – A DevOps Beginner’s Journey</span>
             
 
           
@@ -630,6 +630,17 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -645,6 +656,17 @@
       
         
         
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
       
 
       
@@ -708,7 +730,7 @@
 
 <article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>Securing Terraform with Checkov: My First Governance Hardening Pass</h1>
+    <h1 data-toc-skip>How I Debugged My First Web App Locally – A DevOps Beginner’s Journey</h1>
     
 
     <div class="post-meta text-muted">
@@ -725,13 +747,13 @@
 
 <time
   
-  data-ts="1744675200"
+  data-ts="1749081600"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Apr 15, 2025
+  Jun  5, 2025
 </time>
 
       </span>
@@ -780,9 +802,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="368 words"
+  title="636 words"
 >
-  <em>2 min</em> read</span>
+  <em>3 min</em> read</span>
 
         </div>
       </div>
@@ -791,7 +813,7 @@
 
   
     <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">Securing Terraform with Checkov: My First Governance Hardening Pass</span>
+      <span class="label text-truncate">How I Debugged My First Web App Locally – A DevOps Beginner’s Journey</span>
       <button type="button" class="toc-trigger btn me-1">
         <i class="fa-solid fa-list-ul fa-fw"></i>
       </button>
@@ -804,7 +826,7 @@
 
     <dialog id="toc-popup" class="p-0">
       <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">Securing Terraform with Checkov: My First Governance Hardening Pass</div>
+        <div class="label text-truncate py-2 ms-4">How I Debugged My First Web App Locally – A DevOps Beginner’s Journey</div>
         <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
           <i class="fas fa-close"></i>
         </button>
@@ -814,157 +836,244 @@
   
 
   <div class="content">
-    <p>🔍 <strong>Context:</strong> As part of my DevSecOps learning journey (Epic 21: Governance &amp; Policy as Code), I wanted to enforce security best practices in a live Terraform project. The goal was to use Checkov to scan my Infrastructure as Code (IaC) and apply necessary fixes to improve compliance, visibility, and confidence in what I was deploying.</p>
+    <h1 id="️-how-i-debugged-my-first-web-app-locally--a-devops-beginners-journey">🛠️ How I Debugged My First Web App Locally – A DevOps Beginner’s Journey</h1>
+
+<p>Launching your first full-stack web application is a thrilling yet frustrating experience — and I lived through that rollercoaster! This blog shares the gritty details of how I debugged my first <strong>Spring Boot + React + MySQL</strong> app and finally saw that magical <em>“Dashboard”</em> appear on screen.</p>
 
 <hr />
 
-<h2 id="-scenario-before-scan"><span class="me-2">🧱 Scenario Before Scan</span><a href="#-scenario-before-scan" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="-what-is-this-web-app"><span class="me-2">🌐 What Is This Web App?</span><a href="#-what-is-this-web-app" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<p>I began with a basic Terraform setup that provisioned:</p>
+<p>The app is a <strong>Full-Stack Expense Tracker</strong> called <strong>“My Wallet”</strong>, which helps users:</p>
 
 <ul>
-  <li>A VPC</li>
-  <li>A public subnet</li>
-  <li>A security group allowing SSH</li>
-  <li>A single EC2 instance with default settings</li>
+  <li>Track expenses &amp; incomes</li>
+  <li>Set budgets and categories</li>
+  <li>Register, log in, and securely manage their finances</li>
 </ul>
 
 <hr />
 
-<h2 id="-initial-risks-detected-by-checkov"><span class="me-2">🚨 Initial Risks Detected by Checkov</span><a href="#-initial-risks-detected-by-checkov" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="️-tech-stack-overview"><span class="me-2">⚙️ Tech Stack Overview</span><a href="#️-tech-stack-overview" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>Layer</th>
+      <th>Technology Used</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Frontend</td>
+      <td>React.js (Port: <code class="language-plaintext highlighter-rouge">3000</code>)</td>
+    </tr>
+    <tr>
+      <td>Backend</td>
+      <td>Spring Boot (Java) + Spring Security + JWT (Port: <code class="language-plaintext highlighter-rouge">8081</code>)</td>
+    </tr>
+    <tr>
+      <td>Database</td>
+      <td>MySQL (Local, DB name: <code class="language-plaintext highlighter-rouge">expensetrackerdb</code>)</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<hr />
+
+<h2 id="-my-initial-setup-flow"><span class="me-2">🧩 My Initial Setup Flow</span><a href="#-my-initial-setup-flow" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<h3 id="-step-1-start-backend"><span class="me-2">✅ Step 1: Start Backend</span><a href="#-step-1-start-backend" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
 <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>checkov <span class="nt">-d</span> <span class="nb">.</span>
+</pre></td><td class="rouge-code"><pre><span class="nb">nohup</span> ./mvnw spring-boot:run <span class="o">&gt;</span> backend.log 2&gt;&amp;1 &amp;
 </pre></td></tr></tbody></table></code></div></div>
 
-<p><strong>Results:</strong></p>
+<p>📉 <strong>Error #1:</strong>
+<code class="language-plaintext highlighter-rouge">Access denied for user 'root'@'localhost'</code>
+🔍 Root Cause: MySQL password mismatch in <code class="language-plaintext highlighter-rouge">application.properties</code>.</p>
+
+<p>✅ <strong>Fix:</strong></p>
 
 <ul>
-  <li>✅ Passed Checks: 9</li>
-  <li>❌ Failed Checks: 11</li>
-</ul>
-
-<p><strong>Examples:</strong></p>
-
-<ul>
-  <li>SSH open to <code class="language-plaintext highlighter-rouge">0.0.0.0/0</code></li>
-  <li>Egress open to all traffic</li>
-  <li>No <code class="language-plaintext highlighter-rouge">description</code> fields</li>
-  <li>EBS not encrypted</li>
-  <li>No CloudWatch monitoring</li>
-  <li>IMDSv1 enabled</li>
-  <li>No IAM role for EC2</li>
-  <li>Public IP assigned automatically</li>
-  <li>VPC Flow Logs disabled</li>
+  <li>Confirmed correct MySQL password with <code class="language-plaintext highlighter-rouge">mysql -u root -p</code></li>
+  <li>Updated backend config with correct creds</li>
+  <li>Restarted backend</li>
 </ul>
 
 <hr />
 
-<h2 id="-fixes-made-batch-wise"><span class="me-2">🔧 Fixes Made (Batch-Wise)</span><a href="#-fixes-made-batch-wise" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 id="-error-2-port-8080-already-in-use"><span class="me-2">❌ Error #2: Port 8080 Already in Use</span><a href="#-error-2-port-8080-already-in-use" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<h3 id="-batch-1-security-group-tightening"><span class="me-2">🔐 Batch 1: Security Group Tightening</span><a href="#-batch-1-security-group-tightening" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<ul>
-  <li>Allowed SSH only from trusted IP</li>
-  <li>Restricted egress to port 443 (HTTPS)</li>
-  <li>Added <code class="language-plaintext highlighter-rouge">description</code> fields to rules</li>
-</ul>
+<p>✅ Solution: Changed backend port to <code class="language-plaintext highlighter-rouge">8081</code> by adding <code class="language-plaintext highlighter-rouge">server.port=8081</code> in <code class="language-plaintext highlighter-rouge">application.properties</code>.</p>
 
 <hr />
 
-<h3 id="-batch-2-ec2-instance-hardening"><span class="me-2">💾 Batch 2: EC2 Instance Hardening</span><a href="#-batch-2-ec2-instance-hardening" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<ul>
-  <li>Enabled CloudWatch monitoring</li>
-  <li>Encrypted EBS root volume</li>
-  <li>Enforced IMDSv2</li>
-  <li>EBS optimization enabled</li>
-  <li>Commented <code class="language-plaintext highlighter-rouge">iam_instance_profile</code> (will add later)</li>
-</ul>
-
-<hr />
-
-<h3 id="-batch-3-network--vpc-adjustments"><span class="me-2">🌐 Batch 3: Network &amp; VPC Adjustments</span><a href="#-batch-3-network--vpc-adjustments" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<ul>
-  <li>Disabled <code class="language-plaintext highlighter-rouge">map_public_ip_on_launch</code></li>
-  <li>Deferred VPC Flow Logs setup</li>
-</ul>
-
-<hr />
-
-<h2 id="-terraform-workflow-used"><span class="me-2">🧪 Terraform Workflow Used</span><a href="#-terraform-workflow-used" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 id="-step-2-start-frontend"><span class="me-2">✅ Step 2: Start Frontend</span><a href="#-step-2-start-frontend" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
 <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre>terraform plan <span class="nt">-out</span> secure.plan
-terraform apply secure.plan
+</pre></td><td class="rouge-code"><pre><span class="nb">nohup </span>npm <span class="nb">install</span> <span class="o">&gt;</span> frontend.log 2&gt;&amp;1 &amp;
+<span class="nb">nohup </span>npm start <span class="o">&gt;</span> frontend.log 2&gt;&amp;1 &amp;
 </pre></td></tr></tbody></table></code></div></div>
 
-<p>✅ Avoided blind changes — DevSecOps habit formed!</p>
+<p>I could now see the login UI 🎉 — but logging in didn’t work.</p>
 
 <hr />
 
-<h2 id="-after-fixes-checkov-re-scan"><span class="me-2">📊 After Fixes: Checkov Re-scan</span><a href="#-after-fixes-checkov-re-scan" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="-the-jwt-nightmare"><span class="me-2">🔐 The JWT Nightmare</span><a href="#-the-jwt-nightmare" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>I spent hours stuck on:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>401 Unauthorized – Full authentication is required to access this resource
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Turns out, my <strong>JWT token was never being generated</strong>.</p>
+
+<h3 id="-the-root-cause"><span class="me-2">✅ The Root Cause?</span><a href="#-the-root-cause" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>A <strong>Java mistake</strong>:
+I had written the logger <em>after</em> the <code class="language-plaintext highlighter-rouge">return</code> line — so token generation logic was silently skipping the log.</p>
+
+<p><strong>Original Code:</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="k">return</span> <span class="nc">Jwts</span><span class="o">.</span><span class="na">builder</span><span class="o">()....</span><span class="na">compact</span><span class="o">();</span>
+<span class="n">logger</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">"Generated JWT Token: "</span> <span class="o">+</span> <span class="n">token</span><span class="o">);</span> <span class="c1">// ❌ Never executes</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Fixed Code:</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="nc">String</span> <span class="n">token</span> <span class="o">=</span> <span class="nc">Jwts</span><span class="o">.</span><span class="na">builder</span><span class="o">()....</span><span class="na">compact</span><span class="o">();</span>
+<span class="n">logger</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">"Generated JWT Token: {}"</span><span class="o">,</span> <span class="n">token</span><span class="o">);</span>  <span class="c1">// ✅ Now logs</span>
+<span class="k">return</span> <span class="n">token</span><span class="o">;</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<hr />
+
+<h2 id="-bcrypt-password-hashing"><span class="me-2">🧪 BCrypt Password Hashing</span><a href="#-bcrypt-password-hashing" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Login was still failing due to this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>401 Unauthorized – Bad credentials
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>🔍 My manually inserted admin password didn’t match the expected <strong>BCrypt format</strong>.</p>
+
+<p>✅ I generated a valid hashed password using:</p>
+
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="k">new</span> <span class="nc">BCryptPasswordEncoder</span><span class="o">().</span><span class="na">encode</span><span class="o">(</span><span class="s">"Admin@123"</span><span class="o">));</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>🔁 Updated the DB manually:</p>
+
+<div class="language-sql highlighter-rouge"><div class="code-header">
+        <span data-label-text="Sql"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="k">UPDATE</span> <span class="n">users</span> <span class="k">SET</span> <span class="n">password</span> <span class="o">=</span> <span class="s1">'hashed_value_here'</span> <span class="k">WHERE</span> <span class="n">email</span> <span class="o">=</span> <span class="s1">'admin2@example.com'</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<hr />
+
+<h2 id="-final-login-success"><span class="me-2">✅ Final Login Success!</span><a href="#-final-login-success" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Ran this curl test:</p>
 
 <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>checkov <span class="nt">-d</span> <span class="nb">.</span>
+2
+3
+</pre></td><td class="rouge-code"><pre>curl <span class="nt">-X</span> POST http://localhost:8081/mywallet/auth/signin <span class="se">\</span>
+  <span class="nt">-H</span> <span class="s2">"Content-Type: application/json"</span> <span class="se">\</span>
+  <span class="nt">-d</span> <span class="s1">'{"email": "admin2@example.com", "password": "Admin@123"}'</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<p><strong>Result:</strong></p>
+<p>🎉 Got the JWT Token!
+And YES — logged into the UI from <code class="language-plaintext highlighter-rouge">http://localhost:3000</code> for the first time! 🎯</p>
+
+<hr />
+
+<h2 id="-what-i-learned"><span class="me-2">🎯 What I Learned</span><a href="#-what-i-learned" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>Problem</th>
+      <th>What I Did</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MySQL Access Denied</td>
+      <td>Verified password, updated config</td>
+    </tr>
+    <tr>
+      <td>Port Conflict</td>
+      <td>Switched backend to port 8081</td>
+    </tr>
+    <tr>
+      <td>JWT Token Not Generated</td>
+      <td>Fixed logger placement in Java</td>
+    </tr>
+    <tr>
+      <td>Password Not Matching (401)</td>
+      <td>Used BCrypt and updated DB</td>
+    </tr>
+    <tr>
+      <td>UI Login Not Working</td>
+      <td>Enabled JWT + Spring Security</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<hr />
+
+<h2 id="-final-reflection"><span class="me-2">🧠 Final Reflection</span><a href="#-final-reflection" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Debugging this app taught me more than any tutorial ever could:</p>
 
 <ul>
-  <li>✅ Passed: 17</li>
-  <li>❌ Failed: 3 (deferred by design)</li>
-</ul>
-
-<p>Remaining issues:</p>
-
-<ul>
-  <li>IAM role missing → planned in Task 21.5</li>
-  <li>VPC flow logs → Task 21.7</li>
-  <li>Default security group → not used</li>
+  <li><strong>Security is real</strong> — every login needs backend verification.</li>
+  <li><strong>DevOps starts with Dev</strong> — I couldn’t debug CI/CD until I made local work.</li>
+  <li><strong>Logs are gold</strong> — every issue had a hint hiding in <code class="language-plaintext highlighter-rouge">backend.log</code> &amp; <code class="language-plaintext highlighter-rouge">frontend.log</code>.</li>
+  <li><strong>Shell scripts usage</strong> — I created run.sh and stop.sh to start both frontend and backend together and gracefully release ports when stopping. This saved time and reduced manual mistakes during repeated test cycles.</li>
+  <li><strong>Automation is empowerment</strong> — even local DevOps benefits from reusable scripts and patterns that reduce cognitive load.</li>
 </ul>
 
 <hr />
 
-<h2 id="-key-learnings"><span class="me-2">🧠 Key Learnings</span><a href="#-key-learnings" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<ul>
-  <li>Policy-as-Code reveals hidden risks</li>
-  <li>IMDSv2 + encryption = huge upgrade</li>
-  <li>Organizing fixes into batches = clarity</li>
-  <li><code class="language-plaintext highlighter-rouge">terraform plan -out</code> = must-use</li>
-  <li>DevSecOps = awareness + tooling + design</li>
-</ul>
-
-<hr />
-
-<h2 id="-whats-next"><span class="me-2">📝 What’s Next?</span><a href="#-whats-next" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<ul>
-  <li>Write custom OPA policy for EBS encryption</li>
-  <li>Checkov scan for S3 bucket policies</li>
-  <li>Add IAM role with least privilege</li>
-  <li>Enable VPC Flow Logs with IAM</li>
-  <li>Blog each fix as a security pattern</li>
-</ul>
-
-<hr />
+<p>If you’re stuck in your first full-stack app journey: don’t quit.
+<strong>Break it down. Fix one log error at a time. Victory is near.</strong></p>
 
 <p><em>Thanks for reading. May your pipelines be green, your infra be tagged, and your security posture be strong!</em></p>
 
 <p>🔗 Explore my other blogs at <a href="https://www.opsbygandal.dev">opsbygandal.dev</a><br />
-📁 Check out the GitHub repo [https://github.com/gandalops/portfolio-chirpy]<br />
+📁 Check out the GitHub repo [https://github.com/gandalops/expense-tracker]<br />
 🔄 Let’s connect on <a href="https://www.linkedin.com/">LinkedIn</a></p>
 
-<hr />
+<p>```</p>
 
 
   </div>
@@ -985,34 +1094,34 @@ terraform apply secure.plan
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/terraform/"
+            href="/tags/springboot/"
             class="post-tag no-text-decoration"
-          >terraform</a>
+          >springboot</a>
         
           <a
-            href="/tags/checkov/"
+            href="/tags/reactjs/"
             class="post-tag no-text-decoration"
-          >checkov</a>
+          >reactjs</a>
         
           <a
-            href="/tags/devsecops/"
+            href="/tags/mysql/"
             class="post-tag no-text-decoration"
-          >devsecops</a>
+          >mysql</a>
         
           <a
-            href="/tags/security/"
+            href="/tags/jwt/"
             class="post-tag no-text-decoration"
-          >security</a>
+          >jwt</a>
         
           <a
-            href="/tags/governance/"
+            href="/tags/devops/"
             class="post-tag no-text-decoration"
-          >governance</a>
+          >devops</a>
         
           <a
-            href="/tags/policy-as-code/"
+            href="/tags/debugging/"
             class="post-tag no-text-decoration"
-          >policy-as-code</a>
+          >debugging</a>
         
       </div>
     
@@ -1048,14 +1157,14 @@ terraform apply secure.plan
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Securing%20Terraform%20with%20Checkov:%20My%20First%20Governance%20Hardening%20Pass%20-%20Yogesh%20Gandal&url=https%3A%2F%2Fwww.opsbygandal.dev%2Fposts%2Fcheckov-terraform-hardening%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=How%20I%20Debugged%20My%20First%20Web%20App%20Locally%20%E2%80%93%20A%20DevOps%20Beginner%E2%80%99s%20Journey%20-%20Yogesh%20Gandal&url=https%3A%2F%2Fwww.opsbygandal.dev%2Fposts%2Ffullstack-web-app-debugging%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.opsbygandal.dev%2Fposts%2Fcheckov-terraform-hardening%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.opsbygandal.dev%2Fposts%2Ffullstack-web-app-debugging%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
         <i class="fa-fw fab fa-linkedin"></i>
       </a>
     
@@ -2233,67 +2342,43 @@ terraform apply secure.plan
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -2309,7 +2394,7 @@ terraform apply secure.plan
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/governance-tools-comparison/" class="post-preview card h-100">
+          <a href="/posts/main-vs-gh-pages-lessons/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2321,23 +2406,23 @@ terraform apply secure.plan
 
 <time
   
-  data-ts="1744675200"
+  data-ts="1745618400"
   data-df="ll"
   
 >
-  Apr 15, 2025
+  Apr 26, 2025
 </time>
 
-              <h4 class="pt-0 my-2">Governance & Policy as Code: My DevSecOps Operating System</h4>
+              <h4 class="pt-0 my-2">Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD</h4>
               <div class="text-muted">
-                <p>🔐 DevSecOps Governance Tools Comparison  As a DevSecOps practitioner, it’s critical to choose the right Policy-as-Code tool based on your stack and use case. Below is a comparison of 5 key tools us...</p>
+                <p>Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD  Recently, while setting up my portfolio site using the Chirpy Jekyll theme and GitHub Actions, I faced an important wo...</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/terraform-basics/" class="post-preview card h-100">
+          <a href="/posts/jekyll-ruby-debugging-journey/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2349,23 +2434,23 @@ terraform apply secure.plan
 
 <time
   
-  data-ts="1744329600"
+  data-ts="1744588800"
   data-df="ll"
   
 >
-  Apr 11, 2025
+  Apr 14, 2025
 </time>
 
-              <h4 class="pt-0 my-2">Terraform Journey: From Zero to Launching EC2 on AWS</h4>
+              <h4 class="pt-0 my-2">How I Brought My Broken DevSecOps Blog Back to Life – A Jekyll, Ruby & GitHub Pages Debugging Journey</h4>
               <div class="text-muted">
-                <p>My hands-on journey learning Terraform by deploying EC2 instances on AWS, including challenges faced and security considerations.</p>
+                <p>My debugging journey fixing broken builds caused by Ruby version mismatches, unsupported Jekyll plugins, and GitHub Pages limitations — with real errors and fixes.</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/aws-project1-secure-ec2/" class="post-preview card h-100">
+          <a href="/posts/minimal-mistakes-to-chirpy/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2377,16 +2462,16 @@ terraform apply secure.plan
 
 <time
   
-  data-ts="1744934400"
+  data-ts="1745539200"
   data-df="ll"
   
 >
-  Apr 18, 2025
+  Apr 25, 2025
 </time>
 
-              <h4 class="pt-0 my-2">AWS Project 1: Launching a Secure, Monitorable EC2 — My First DevSecOps Lab</h4>
+              <h4 class="pt-0 my-2">From Minimal Mistakes to Chirpy: Why I Switched and Never Looked Back</h4>
               <div class="text-muted">
-                <p>🔶 Today’s AWS Hands-On (Project 1 – DevSecOps Epic)  As part of my AWS Epic on the DevSecOps learning journey, today’s goal was to complete Project 1: Launch a Secure, Monitorable EC2 in a Custom V...</p>
+                <p>— Me, after one week of customizing Minimal Mistakes   🔧 The Initial Setup: Minimal Mistakes Looked Promising…  Like many developers building a personal portfolio, I started with the popular Minima...</p>
               </div>
             </div>
           </a>
@@ -2407,22 +2492,18 @@ terraform apply secure.plan
 
   
     <a
-      href="/posts/jekyll-ruby-debugging-journey/"
+      href="/posts/main-vs-gh-pages-lessons/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>How I Brought My Broken DevSecOps Blog Back to Life – A Jekyll, Ruby & GitHub Pages Debugging Journey</p>
+      <p>Main vs gh-pages: Lessons from Setting Up Chirpy and Understanding Real CI/CD</p>
     </a>
   
 
   
-    <a
-      href="/posts/governance-tools-comparison/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>Governance & Policy as Code: My DevSecOps Operating System</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 
